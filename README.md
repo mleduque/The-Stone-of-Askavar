@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<!--
-BODY { color: #FFFFFF; }
-A:link {
-  color: #0000CC;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Verdana;
-}
-A:visited {
-  color: #0000CC;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: Verdana;
-}
-A:hover {
-  color: #000099;
-  text-decoration: underline;
-  font-weight: bold;
-  font-family: Verdana;
-}
-DIV.a {
-  font-family: Verdana;
-  font-size: 1.0em;
-  color: #000000;
-}
-TD {
-  font-family: Verdana;
-  font-size: 1.0em;
-  color: #000000;
-}
--->
-</style></head>
+</head>
 <body>
 <div class="a">
 	<center>
