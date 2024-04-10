@@ -1,0 +1,538 @@
+// TotSC specific texts : retrieved from V1.8 unless specified
+
+//------------------------------------------------------------------------------------
+//  Creatures, characters, items, miscellaneous:
+//------------------------------------------------------------------------------------
+
+
+
+@2 = ~La cota de mallas está fabricada de anillas de metal entrelazadas. Siempre se lleva sobre un acolchado de cuero blando para evitar los roces y amortiguar el impacto de los golpes. 
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 5
+Peso: 40
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+@3 = ~Esta cota de malla fue realizada por la elfa solar Mecorima Sylerim. Merocima fué una elfa solar cuyas ambiciones se extendían lejos, dentro de la sociedad élfica. Mecorima necesitaba algo más que su talento diplomático para evitar a las facciones rivales. Para conseguir ésto tenía una cota de mallas que podía salvarle la vida frente a intentos de asesinatos y doblegar la voluntad de los señores nobles.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 20
+Especial: El portador recibe una bonificación de +5 Salvación contra Muerte
+Carisma incrementada en 2
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@6 = ~La armadura de placas es una combinación de armadura de cota con placas metálicas que cubren las áreas vitales como el pecho, el abdomen y la entrepierna. Semejante en su construcción a la armadura de placas de bronce, la armadura de placas verdadera está compuesta de cota y cuero.  
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 3
+Peso: 50
+No permitido a:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
+
+@7 = ~Esta armadura casi parece viva cuando la sostienes. El material está hecho de luz y se envuelve alrededor de tu cuerpo como si fuera cuero flexible. La única evidencia de sus orígenes es el nombre de Kalindra grabado dentro.  
+
+CARACTERÍSTICAS:
+
+Clase de armadura: 2
+Peso: 30
+Especial: Aumenta las tiradas de salvación en 1
+No permitido a:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@10 = ~La maza deriva directamente del garrote común y se compone simplemente de un asta de madera con una punta de piedra o hierro montada en el extremo. El diseño de la punta varía: unas tienen púas, otras rebordes y otras tienen piezas piramidales.
+
+CARACTERÍSTICAS:
+
+Daño:  1D6 + 1
+Tipo de daño:  Contundente
+Peso: 8
+Factor de velocidad: 7
+Talento marcial: Maza
+Tipo: una mano
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+@11 = ~Maza +1 : 
+ 'Maza del intrépido'
+Muchos seguidores de Chauntea portan una Maza como ésta. La mayoría son entregadas a los nuevos clérigos, pero algunas son encantadas mágicamente y entregadas a los discípulos más habilidosos. Ésta es una de esas armas.
+
+CARACTERÍSTICAS:
+
+Daño: 1D6 + 1
+GAC0: bonificador +1
+Especial: Resistencia al miedo 30%
+Tipo de daño: Contundente
+Peso: 7
+Factor de velocidad: 5
+Talento marcial: Maza
+Tipo: una mano
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@14 = ~El mazo es un martillo pesado usado habitualmente en la construcción de barcos y edificios. Como herramienta doméstica, el mazo es popular a los largo de todo Faerun, especialmente entre los astilleros de Aguas Profundas. Su gran peso y excelente balanceo hacen de él un arma mortal en el combate. 
+
+STATISTICS:
+
+Damage: 1D4 +1
+Damage type: Crushing
+Weight: 6
+Speed Factor: 4
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+
+@15 = ~Mazo +2:
+ 'Machacador de Ogros de Tholin'
+Este Mazo pesado también conocido como 'El Mazo del Poderoso' ha capeado la tormenta de incontables guerras y batallas. Originalmente propiedad de un lider de tribu Elk, el mazo fué forjado para destruir el creciente número de ogros y orcos a lo largo del río Dessarin.
+
+CARACTERÍSTICAS:
+
+Daño: 1D4 +2, +3 contra gigantes  
+GAC0: +2
+Tipo de daño: Contundente
+Peso: 7
+Factor de velocidad: 5
+Talento marcial: Maza
+Tipo: una mano
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@18 = ~The morning star is a wooden shaft topped with a metal head made up of a spiked iron sheath.  Morning stars have an overall length of about four feet.  Some such weapons have a round, oval, or cylindrical shaped head studded with spikes.  Extending from most morning star heads, regardless of design, is a long point for thrusting.  
+
+STATISTICS:
+
+Damage:  2D4
+Damage type:  crushing
+Weight: 12
+Speed Factor: 7
+Proficiency Type: Spiked Weapons
+Type:  1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+
+@19 = ~Mangual +2:
+ 'El Regalo de Ishandar'
+Golain gastó la mayoría de su juventud con su padre explorando los Picos de las Tormentas. Su padre le enseñó a luchar y apreciar la tierra de su alrededor. Dado su amor por la aventura y la geografía, se convirtió en un Explorador Real para la família Obarskyr. En una larga expedición con un grupo de exploradores para cartografiar la tierra de los Picos de las Tormentas, se percató de una pequeña cueva digna de atención. Seguida de una pequeña lucha contra unos orcos, descubrió un pequeño cofre lleno de oro y un mangual brillante en la oscuridad. El mangual permaneció con Golain durante un tiempo hasta que perdió su vida luchando contra unos ogros en los Picos de las Tormentas.
+
+CARACTERÍSTICAS:
+
+Daño: 2D4 +2
+GAC0: +2
+Tipo de daño: Contundente
+Peso: 10
+Factor de velocidad: 6
+Talento marcial: Armas con punta
+Tipo: una mano
+No permitido a:
+ Druida
+ Mago
+ Ladrón~
+
+
+
+
+@26 = ~Los arcos compuestos son arcos largos o cortos cuyas varas están hechas de más de un tipo de material. Con esto se consigue mayor flexibilidad y mayor alcance. Se desarrollaron después del arco largo normal.  
+
+CARACTERÍSTICAS:
+
+Daño:  +2
+GAC0:  bonificador +1
+Peso: 10
+Factor de velocidad: 7
+Talento marcial: Arcos
+Tipo:  a dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Bardo~
+
+@27 = ~Arco largo compuesto +2:
+'La Maldición de Medusa'
+Durante el año del nacimiento de Laeroth Hoja Rota. En su juventud llegó a ser un maestro del arco y tuvo los mejores ojos para apuntar de su aldea élfica. Las historias cuenta de una Medusa escondida en una cueva cercana a las montañas. Como prueba de valor, se instó a Laeroth a traer la cabeza de la bestia. Después de hablar con los ancianos de su aldea se creó un arco para hacer frente a tal enemigo. Construido de la madera de la presa, el arco fué hecho para ser fiel a su usuario y resistir la mirada de ciertas criaturas. Fué un largo viaje antes de llegar a la guarida de la Medusa. Dentro de la caverna Laeroth usó una piedra brillante para encontrar el camino ha las profundidades. Pasando entre formas de piedra como resultado de incontables intentos fallidos de capturar la bestia, Laeroth finalmente cayó sobre su presa. Cara a cara, la mirada de la Medusa se posó en él. Al principcio estuvo paralizado sin poder nada pero, con el arco en su mano, los efectos de la mirada fueron neutralizados y la lucha por la dominación comenzó. Un arco contra otro, ambos adversarios trataban de acertarle al contrario. La Medusa disparó primero y una flecha envenenada se clavaba en su hombro al igual que el arco de madera depresa disparaba su flecha hacia la cabeza de la Medusa. El monstruo se retorció de dolor y Laeroth bebió un antídoto para el veneno a tiempo de ver a la Medusa caer muerta. Con mano firme se acercó a la criatura y le cercenó la cabeza. Tras retornar a su aldea, la cabeza fué colocada en un lugar seguro para ser usada contra los orcos en tiempos de necesidad. Laeroth viajó en sus últimos años y finalmente vendió el arco por una gran suma de oro.
+
+CARACTERÍSTICAS:
+
+GAC0: +2
+Daño: +2
+Especial: Protección contra Petrificación 
+Peso: 9
+Factor de velocidad: 6
+Talento marcial: Arcos
+Tipo:  a dos manos
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Bardo~
+
+
+
+
+
+
+
+
+
+
+@38 = ~La daga típica tiene una hoja puntiaguda, normalmente de doble filo, a diferencia del cuchillo, que tiene un solo filo y es un poco más corto que la daga.
+. 
+
+ESTADÍSTICAS:
+
+Daño:  1D4 
+Tipo de daño: perforante
+Peso: 1
+Factor de velocidad: 2 
+Tipo de competencia: Espada pequeña
+Tipo: Una mano
+No utilizable por:
+Clérigo~
+
+@39 = ~Dagger +1:
+ 'La daga del desafío'
+Estas dagas se crearon por primera vez en Myth Drannor. Esta daga en particular ha adornado las manos de pícaros, ladrones y bandidos por igual.
+
+ESTADÍSTICAS:
+
+Daño: 1D4 +1
+THACO: +1 bonus
+Especial: Inmunidad al miedo y al encanto
++ 2 bonus a Salvar contra hechizo
+Peso: 1
+Factor de velocidad: 2
+Tipo de competencia: Espada pequeña
+Tipo: Una mano
+Usable por:
+ Ladrón
+ Bardo~
+
+
+
+ 
+
+
+
+
+
+
+
+@52 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada, y consiste en un hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud.  La hoja del hacha está equilibrada en la parte trasera con una aleta y rematada por una punta afilada, normalmente de diseño cuadrangular.  A veces se sustituye por un gancho para desmontar a la caballería.  Una alabarda puede describirse como un cruce entre una lanza y un hacha.  
+
+ESTADÍSTICAS:
+
+Daño:  1D10
+Tipo de daño: perforante
+Peso: 15
+Factor de velocidad: 9
+Tipo de competencia: Lanza
+Tipo: Dos manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@53 = ~Como otras de su tipo, esta alabarda consiste en una hoja de hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud. Sin embargo, ha sido dotada de un pequeño número de propiedades mágicas que la hacen más eficaz en combate. Su afilada hoja, por ejemplo, atravesará la carne de tu oponente hasta llegar al hueso, mientras que su punta con púas buscará huecos en su armadura.
+
+ESTADÍSTICAS:
+
+Daño: 1D10 +1
+THACO: +1 bonus
+Tipo de daño: perforante
+Peso: 14
+Factor de velocidad: 8
+Tipo de competencia: Lanza
+Tipo: dos manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+
+@56 = ~Los caballeros montados no pueden utilizar armas de asta larga a caballo, por lo que muchas armas se han dotado de cañas más cortas para poder blandirlas con una sola mano.  Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro.  El martillo de guerra del jinete es descendiente del martillo de Lucerna.  Está fabricado íntegramente en acero, con rondeles que protegen y refuerzan la empuñadura.  Las rondelas son pequeños discos de metal, a menudo con formas decorativas.  El mango mide unos 45 cm de largo. 
+
+ESTADÍSTICAS:
+
+Daño:  1D4 + 1
+Tipo de daño: aplastante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Armas contundentes
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón
+
+@57 = ~Martillo de hielo +2~:
+'Cencellada de Mydan'
+Varios de estos martillos fueron creados por los Gigantes de Hielo para causar estragos entre los pueblos locales. Molestos por que los humanos invadieran sus territorios, la diosa del hielo Auril alentó a los gigantes a crear armas capaces de un gran daño. Mydan, un lider entre los su propia raza, creó este martillo para rendir homenaje a su deidad. Agradecida por el regalo, la diosa encantó el arma con el poder del hielo.
+
+ESTADÍSTICAS:
+
+GAC0: bonificador +2
+Daño: 1D4 +2 (+1D3 Daño Frío)
+Resistencia al Frío: +30%
+Tipo de daño: aplastante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Armas contundentes
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@89 = ~Un escudo mediano se lleva de la misma manera que un escudo pequeño.  Sin embargo, a diferencia del escudo pequeño, su peso impide que el personaje utilice su mano escudera para otra cosa que no sea llevar el escudo mediano.  Los escudos medianos suelen ser de metal, tienen un diámetro de 3'-4' y pueden tener cualquier forma, desde redondos a cuadrados, pasando por las alas desplegadas de un dragón.  Un escudo medieval típico se asemeja a un triángulo con una punta hacia abajo. 
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: 1
+Peso: 7
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+@90 = ~Se desconoce el origen de este extraño escudo, pero la forma difuminada de un wyrm azul que decora el exterior puede indicar que procede del antiguo imperio de Mulhorand, cerca de las montañas de Dragonsword. El escudo no lleva ninguna marca de armero ni cicatrices de batalla, lo que podría indicar que fue fabricado por arte de magia. Sea cual sea su naturaleza, su brillo azul lo convierte en un objeto preciado.
+  
+ESTADÍSTICAS:
+
+Bonificación de clase de armadura: 2
+Peso: 7
+Especial: Protección contra fuego 30%
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@93 = ~Un escudo pequeño suele ser redondo y se lleva en el antebrazo, agarrado con la mano del escudo.  Su poco peso en comparación con un escudo mediano permite al usuario llevar otros objetos en esa mano, aunque no puede empuñar ni llevar otra arma.
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: 1
+Especial:  Sin protección contra armas de proyectiles
+Peso: 3
+No utilizable por:
+ Bardo
+ Druida
+ Mago 
+ Ladrón
+
+@94 = ~Loran Emarin, un bardo elfo perteneciente a la organización Harper, escuchó una historia sobre un escudo de color dorado con la capacidad de proteger contra los elementos. Intrigado por la historia, el bardo emprendió la búsqueda del objeto. Tras varios años de búsqueda sin resultados, el bardo estuvo a punto de darse por vencido. Entonces, en una fría noche en una taberna de Neverwinter, la elfa escuchó una conversación entre un par de sacerdotes de Ohgma. Describieron el escudo como perteneciente a un grupo de luchadores/clérigos de élite, devotos seguidores del señor de la tormenta Talos. Finalmente, el escudo fue recuperado y vendido al sacerdocio de Talos. Desde entonces se desconoce su destino.
+ 
+STATISTICS:
+
+Bonificación por clase de armadura: 2
+Peso: 5
+Especial: Bonificación de resistencia a la luz 30%
+Protección contra el frío 30%
+Protección contra el fuego 30%.
+El escudo contiene una pequeña carga eléctrica que puede descargarse sobre el objetivo, pero existe un 10% de probabilidad de que la carga también te afecte a ti.
+
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón
+
+
+
+
+
+
+
+@100 = ~La espada a dos manos es un derivado de la espada larga.  Los armeros siempre han buscado formas de mejorar las armas existentes.  En un esfuerzo por mejorar el sable largo, se alargó la hoja.  Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir correctamente la espada.  La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas. 
+
+ESTADÍSTICAS:
+
+Daño:  1D10
+Tipo de daño: cortante
+Peso: 15
+Factor de velocidad: 10
+Tipo de competencia: Espada grande
+Tipo: Espada grande  2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón
+
+@101 = ~Espada Larga +1 :
+ 'zafiro resplandeciente'
+Justo al norte de Waterdeep se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Ojo Esmeralda, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+THACO: +1
+Habilidades especiales: 
+Detectar el Mal
+Daño: 1D10 + 1, +1D3 Daño Frío 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: Arma a dos manos
+Tipo:  Dos manos 
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
+
+
+
+@104 = ~También conocida como espada de mano y media, la espada bastarda debe su nombre a que se encuentra a medio camino entre la espada de dos manos y la espada larga. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, en la que caben las dos manos si se prefiere.  La longitud total de la espada bastarda oscila entre cuatro pies y cuatro pies y diez pulgadas.   
+
+ESTADÍSTICAS:
+
+Daño:  2D4 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: bastarda
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@105 = ~Construida para los yermos de la Tundra del Norte, la Espada Ancha del Bárbaro ha sido templada para condiciones gélidas. El calor del metal proporciona una resistencia contra el duro clima frío.
+
+ESTADÍSTICAS:
+
+THACO: +1 bonus
+Daño: 2D4 + 1, 1D3 daño de Fuego
+Especial: 30% Protección contra el frío 
+Tipo de daño: cortante
+Peso: 8
+Factor de velocidad: 6
+Tipo de competencia: Espada grande
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+
+
+@108 = ~Arma de los Tuigan y los Nars, el sable es una espada larga y pesada especializada en los cortes largos utilizados en el combate a caballo.
+
+ESTADÍSTICAS:
+
+Daño:  1D8
+Tipo de daño:  Cuchillada
+Peso: 6
+Factor de velocidad: 5
+Tipo de competencia: Espada Grande
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@109 = ~Este sable perteneció en su día al capitán Ergern Conwell, oficial de caballería del Puño en Llamas. Se le concedió el sable por su valentía en la batalla. La habilidad del capitán con la espada casi igualaba su afinidad por las habitantes locales. Sin embargo, ninguna destreza con la espada pudo salvarle del venenoso filo de una amante demasiado celosa.
+
+ESTADÍSTICAS:
+
+THACO: +1 bonus
+Daño: 1D8 +1
+Especial: 30% de probabilidad de que el objetivo quede aturdido durante 1 asalto.
+Tipo de daño: cortante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Espada grande
+Tipo: Una mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@110 = ~Espada Larga+1 :
+ 'El ojo de esmeralda'
+Justo al norte de Aguas Profundas se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Zafiro Brillante, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+THACO: +1
+Habilidades especiales: 
+Detectar el Mal
+Daño: 1D10 + 1, +1D3 Daño de Fuego 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: Espada Grande
+Tipo: Dos manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~

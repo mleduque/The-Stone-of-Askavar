@@ -1,0 +1,1081 @@
+//------------------------------------------------------------------------------------
+//  Creatures, characters, items, miscellaneous:
+//------------------------------------------------------------------------------------
+
+@0 = ~Armadura de cota de malla~
+@1 = ~Cota de malla de Mecorima~
+// Formely @201
+@2 = ~La cota de malla está hecha de anillos metálicos entrelazados.  Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 5
+Peso: 40
+Requiere 8 Fuerza
+No utilizable por:
+ Druida 
+ Mago
+ Ladrón~
+// Formely @202, note strength requirement differs between @3 (BGEE, requires 5) and @202 (others, requires 8)
+@3 = ~Esta cota de malla fue hecha para la elfa del Sol Mecorima Sylerim. Mecorima era una elfa solar cuyas ambiciones iban mucho más allá de la sociedad élfica. Mecorima era una diplomática dotada que necesitaba algo más para protegerse de las facciones rivales. Para conseguirlo, mandó fabricar una cota de malla que le salvaría la vida de los intentos de asesinato y doblegaría la voluntad de los nobles.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3
+Peso: 20
+Requiere 8 Fuerza
+Especial: El portador recibe un bonificador +5 a la salvación contra la muerte.
+Carisma incrementado en 2
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+
+@4 = ~Armadura de placas~
+@5 = ~Armadura de Kalindra~
+// Formely @203
+@6 = ~La cota de malla es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle.  De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3
+Peso: 50
+Requiere 12 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+// Formely @204, note strength requirement differs between @7 (BGEE, requires 10) and @204 (others, requires 12)
+@7 = ~Esta armadura casi parece viva cuando la sostienes. El material del que está hecha es ligero y envuelve el cuerpo como un cuero flexible. La única prueba de su origen es el nombre Kalindra grabado en su interior.
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 2
+Peso: 30
+Especial: Aumenta las tiradas de salvación en 1
+Requiere 12 Fuerza
+No utilizable por:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
+
+@8 = ~Mazo~
+@9 = ~Mazo +1~
+// Formely @205, note weight differs between @10 (BGEE, 10) and @205 (others, 8)
+@10 = ~La maza es un descendiente directo del garrote básico, que no es más que un asta de madera con una cabeza de piedra o hierro montada en el extremo.  El diseño de la cabeza varía: algunas tienen púas, otras pestañas y otras tienen pomos piramidales.
+
+ESTADÍSTICAS:
+
+Daño:  1D6 + 1
+Tipo de daño: aplastante
+Peso: 8
+Factor de velocidad: 7
+Tipo de competencia: Maza
+Tipo: Una mano
+Requiere 10 Fuerza
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+// Formely @206, note strength requirement differs between @11 (BGEE, requires 9) and @206 (others, requires 10) and weight is present twice in @11
+@11 = ~Mace +1 :
+ 'Maza de los intrépidos'
+Muchos seguidores de Chauntea llevan una maza como esta. La mayoría se entrega a los nuevos clérigos, pero algunas se mejoran mágicamente y se entregan a los estudiantes más dotados. Esta es un arma como esta.
+
+ESTADÍSTICAS:
+
+Daño: 1D6 + 1
+THACO: +1 bonus
+Especial: Resiste miedo 30%
+Tipo de daño: aplastante
+Peso: 7
+Factor de velocidad 5
+Tipo de competencia: Maza
+Tipo: Una mano
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+
+@12 = ~Mazo~
+@13 = ~Aplasta ogros de Tholin~
+// Formely @207, note weight differs between @14 (BGEE, 10) and @207 (others, 6)
+@14 = ~El mazo es un martillo pesado muy utilizado en la construcción de barcos y edificios. Se trata de una herramienta doméstica muy popular en todo Faerûn, especialmente entre los constructores navales de Waterdeep. Su gran peso y su excelente balanceo lo convierten en un arma letal en combate.
+
+ESTADÍSTICAS:
+
+Daño: 1D4 +1
+Tipo de daño: Aplastante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Martillo de Guerra
+Tipo: Una mano
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
+// Formely @208, note damage bonus against giants is not indicated in @15 (BGEE)
+@15 = ~Maul +2:
+ 'Aplasta ogros de Tholin'
+Este pesado mazo, también conocido como "El mazo de los poderosos", ha capeado el temporal de incontables guerras y batallas. Originalmente propiedad de un jefe de la tribu de los alces, el mazo se forjó para matar al creciente número de ogros y orcos a lo largo del río Dessarin.
+
+ESTADÍSTICAS:
+
+Daño: 1D4 +2, +3 Gigantes  
+THACO: +2
+Tipo de daño: aplastante
+Peso: 7
+Factor de velocidad 5
+Tipo de competencia: Martillo de guerra
+Tipo: Una mano
+Requiere 10 Fuerza
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+
+@16 = ~Lucero del alba~
+@17 = ~Lucero de alba +2~
+// Formely @209, note text description differs a bit between @18 (BGEE) and @209 (others)
+@18 = ~El lucero del alba es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Tienen una longitud total de unos cuatro pies. Algunas armas de este tipo tienen una cabeza redonda, ovalada o cilíndrica con pinchos.  De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
+
+ESTADÍSTICAS:
+
+Daño: 2D4
+Tipo de daño: aplastante
+Peso: 12
+Factor de velocidad: 7
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: Una mano
+Requiere 11 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
+// Formely @210, note strength requirement differs between @19 (BGEE, requires 10) and @210 (others, requires 11)
+// note @19 (BGEE) still uses profeciency "Spiked Weapons" from BG1
+@19 = ~Lucero de alba +2:
+ 'Regalo de Ishandar'
+Golain pasó la mayor parte de su juventud con su padre explorando los Stronghorns alrededor de Cormyr. Su padre le enseñó a luchar y a apreciar la tierra que le rodeaba. Amante de la aventura y la geografía, se convirtió en explorador real de la familia Obarskyr. En una larga expedición con un equipo de exploradores inspeccionando tierras en las montañas del pico del Trueno, se fijó en una pequeña cueva digna de atención. Tras una pequeña pelea con varios orcos, descubrió un pequeño cofre lleno de oro y una Estrella de la Mañana que brillaba en la oscuridad. La Estrella de la Mañana permaneció con Golain durante algún tiempo hasta que perdió la vida luchando contra los Ogros en los Stronghorns.  
+
+ESTADÍSTICAS:
+
+Daño: 2D4 +2
+THAC0: +2
+Tipo de daño: aplastante
+Peso: 10
+Factor de velocidad: 6
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: Una mano
+Requiere 10 Fuerza
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+
+@20 = ~Libro~
+@21 = ~Libro de conjuros del Mago Rojo~
+// Formely @304 (though identical to @22)
+@22 = ~Un libro de hechizos. La mayoría de los libros de este tipo se utilizan para almacenar hechizos o algún tipo de encantamiento mágico.~
+// Formely @305
+@23 = ~El libro de las llamas
+Este libro, que una vez estuvo en manos de un archimago mago rojo, fue robado por un esclavo fugitivo y sacado de contrabando de Thay a la seguridad de Dalelands. El libro está encuadernado en piel humana, resultado de innumerables experimentos con esclavos. Como resultado, tiene un aura que sólo los personajes malvados pueden usar. 
+
+ESTADÍSTICAS:
+
+Especial:  Al abrirse, un arco de llamas alcanza al objetivo
+Daño: 2D3
+Alcance: 0 
+Duración: instantánea Instantánea
+Tiempo de lanzamiento: 1
+Área de Efecto: El Casteador
+Tirada de Salvación: Ninguno
+
+Sólo utilizable por:
+ Mago~
+
+@24 = ~Arco largo compuesto~
+@25 = ~Arco largo compuesto +2~
+// Formely @211, note text description differs a bit between @26 (BGEE) and @211 (others)
+@26 = ~Los arcos compuestos son arcos largos o cortos cuyas duelas están hechas de más de un tipo de material.  Esto les confiere mayor flexibilidad y, por tanto, mejor alcance.  Se desarrollaron después del arco largo normal.
+
+ESTADÍSTICAS:
+
+Daño: +2
+Bonificación para golpear: +1
+Peso: 10
+Factor de velocidad: 7
+Tipo de competencia: Arco Largo
+Tipo: Dos manos
+Requiere 18 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón
+ Bardo~
+// Formely @212
+@27 = ~Composite Long Bow +2:
+'La maldición de Medussa'
+Durante el año de la Hoja Rota nació Laeroth. En su juventud se convirtió en un maestro del arco y tenía el mejor ojo para la precisión de su aldea élfica. Se contaban historias de una Medussa escondida en una cueva de las montañas cercanas. Como prueba de valor le correspondió a Laeroth entregar la cabeza de dicha bestia. Tras hablar con los ancianos de su aldea, se fabricó un arco para enfrentarse a semejante enemigo. Construido con madera de weirwood, el arco estaba hecho para ser fiel a su usuario y resistir la mirada de ciertas criaturas. Un largo viaje siguió antes de llegar a la guarida de Medussa. Dentro de la cueva, Laeroth utilizó una piedra incandescente para orientarse. Tras atravesar formas de piedra, resultado de innumerables intentos fallidos de capturar a la bestia, Laeroth finalmente dio con su presa. Cara a cara con el Medussa la mirada se posó sobre él. Al principio se quedó paralizado para hacer cualquier cosa, pero con el arco en la mano los efectos de la mirada se neutralizaron y comenzó la lucha por el dominio. Un arco contra otro, ambos adversarios se apuntaron mutuamente. El Medussa disparó primero y una flecha envenenada se alojó en su hombro justo cuando el arco de Weirwood disparó su propia flecha a la cabeza del Medussa. El monstruo se retorció de dolor, pero Laeroth bebió un antídoto contra el veneno a tiempo para ver los últimos estertores de la Medussa. Con mano firme se acercó a la criatura y le cortó la cabeza. Tras regresar a su aldea, guardó la cabeza en un lugar seguro para utilizarla contra los orcos en caso de necesidad. Laeroth viajó en sus últimos años y acabó vendiendo el arco por una gran suma de oro.        
+
+ESTADÍSTICAS:
+
+THACO: +2
+Daño: +2
+Especial: Protección contra Petrificación 
+Peso: 9
+Factor de velocidad: 6
+Tipo de competencia: Arco Largo
+Tipo: Dos manos
+Requiere 18 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón
+ Bardo~
+
+@28 = ~Capa~
+@29 = ~Manto de viaje~
+// Formely @300 (though identical to @30)
+@30 = ~La capa puede hacerse de todas las formas posibles con casi cualquier tipo de tela.  Las formas más comunes son una pieza circular de tela con un agujero en el centro para la cabeza, y tela drapeada desde el cuello, unida por una cadena, broche, cordón o alfileres.~
+// Formely @301
+@31 = ~La Capa de Viaje es una prenda ligera que proporciona protección adicional contra los elementos. Además, la capa otorga una bonificación a la CA.
+ 
+ESTADÍSTICAS:
+
+Clase de Armadura: +1 de bonificación
+Especial: 20% resistencia al frío y al fuego
+Peso: 3
+No utilizable por:~
+
+@32 = ~Túnica de mago~
+@33 = ~La túnica blanca de la araña~
+// Formely @302 (though identical to @34)
+@34 = ~Desde la era de Netheril, los magos han aprendido a otorgar una amplia variedad de propiedades mágicas a los objetos cotidianos que los rodean. Uno de los objetos favoritos de este tipo de encantamiento es la túnica común. Es ligera, asequible y mantiene bien su encantamiento, por lo que es el equipo ideal para un mago. Sin embargo, debido a su herencia mágica, sólo los magos de clase única, doble y múltiple pueden llevar estas túnicas encantadas.~
+// Formely @303
+@35 = ~Esta túnica blanca lleva bordadas las formas de numerosas arañas por toda su superficie. El portador es inmune a cualquier efecto que cause estorbo, como telaraña y ralentización. Anula los efectos de los hechizos de parálisis y retención. La túnica también permite al mago lanzar un hechizo de retención sobre un objetivo, pero su duración se limita a un solo asalto.
+
+ESTADÍSTICAS:
+
+Clase de Armadura:  6
+Peso: 6
+Especial:  Acción Libre (mientras esté equipado) - protege al Mago de cualquier magia que afecte al movimiento como paralizar y telaraña.
+Permite al Mago lanzar un hechizo de paralizar.
+Solo utilizable por:
+ Mago (individual, dual y multiclase)~
+
+@36 = ~Daga~
+@37 = ~Daga +1~
+// Formely @213, note text description differs a bit between @38 (BGEE) and @213 (others)
+@38 = ~La daga típica tiene una hoja puntiaguda, normalmente de doble filo, a diferencia del cuchillo, que tiene un solo filo y es un poco más corto que la daga.
+
+ESTADÍSTICAS:
+
+Daño: 1D4
+Tipo de daño: perforante
+Peso: 1
+Factor de velocidad: 2
+Tipo de competencia: Daga
+Tipo: Una mano
+Requiere 3 Fuerza
+No utilizable por:
+ Cleric~
+// Formely @214, note text description differs a bit between @39 (BGEE) and @214 (others)
+@39 = ~Daga +1:
+ 'Daga del desafío'
+Estas dagas fueron creadas en Myth Drannor. Esta daga en particular ha adornado las manos de pícaros, ladrones y bandidos por igual.
+
+ESTADÍSTICAS:
+
+Daño: 1D4 +1
+THACO: +1 bonus
+Especial: Inmunidad al miedo y al encanto
++ 2 bonus a Salvar contra hechizo
+Peso: 1
+Factor de velocidad: 2
+Tipo de competencia: Daga
+Tipo: Una mano
+Requiere 3 Fuerza
+Usable por:
+ Ladrón
+ Bardo~
+
+@40 = ~Drum~
+@41 = ~Kobold Drum~
+@42 = ~Possibly the oldest of instruments, there are many types and are popular amongst many races for their ability to stir the emotions and establish a beat for dancing.  As well as Humans and Dwarfs, Halforcs, Lizardfolk, Kobolds, trolls, ogres and the more dim-witted giants enjoy simple drum music.~
+// Formely @306
+@43 = ~El Tabor Drum o Snare Drum es uno de los favoritos de Kobolds y Enanos. Llevado bajo el brazo o delante del cuerpo, el tambor puede dar un ritmo constante. Si se tocan juntos, su sonido puede confundirse con el avance de un pequeño ejército y asustar a la mayoría de las criaturas a su alcance.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se toca, el objetivo debe realizar una tirada de salvación a -2 o el sonido del tambor causa pánico.
+Alcance: 40
+Duración: 2 asaltos
+Peso: 5
+No utilizable por:~
+ 
+@44 = ~Ogre Drum~
+// Formely @307
+@45 = ~Los tambores de este tipo se conocen como Congos y son uno de los instrumentos favoritos de las criaturas más grandes del reino, como Ogros y Gigantes, por su profundo sonido. Cuando se tocan juntos, el tambor da la impresión de un ejército marchando a la batalla, lo que puede asustar a la mayoría de las criaturas al alcance del oído.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se toca, el objetivo debe realizar una tirada de salvación a -2 o el sonido del tambor causa pánico.
+Alcance: 60
+Duración: 2 asaltos
+Peso: 8
+No utilizable por:~
+
+@46 = ~Perla~
+@47 = ~Perla de las sirenas~
+@48 = ~Pearl's consist of layer's of aragonite agonizingly formed around a bit of grit or other irritant inside oysters and other molluscs.  The resulting pearl has a rich, deep lustre.  Most of the pearls in the realms are white, however there are varieties that are much more rare such as rainbow and black.~
+// Formely @308
+@49 = ~Esta perla de apariencia normal irradia un ligero encanto si se detecta magia. En cualquier caso, la piedra será muy hermosa y valdrá al menos 1.000 gp sólo por este motivo. Si se sujeta firmemente en la mano (o en el pecho) y el poseedor intenta acciones relacionadas con las áreas de poder de la perla, comprenderá y podrá emplear el objeto.
+    La perla permite a su poseedor lanzar Encantamiento funesto sobre un objetivo. La perla debe ser sostenida por su poseedor para transmitir sus poderes. Sin embargo, estas perlas sólo tienen un número limitado de cargas.
+
+ESTADÍSTICAS:
+
+Especial: Lanzar Amuleto funesto
+Alcance: 20
+Duración: 4 asaltos
+Área de Efecto: 1 criatura
+Peso: 1
+Tirada de salvación:  Neg
+Utilizable por:
+ Druida~
+
+@50 = ~Alabarda~
+@51 = ~Alabarda +1~
+// Formely @215
+@52 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada, y consiste en un hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud.  La hoja del hacha está equilibrada en la parte trasera con una aleta y rematada por una punta afilada, normalmente de diseño cuadrangular.  A veces se sustituye por un gancho para desmontar a la caballería.  Una alabarda puede describirse como un cruce entre una lanza y un hacha.
+
+ESTADÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: perforante
+Peso: 15
+Factor de velocidad: 9
+Tipo de competencia: Alabarda
+Tipo: Dos manos
+Requiere 13 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+// Formely @216
+@53 = ~Como otras de su tipo, esta alabarda consiste en una hoja de hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud. Sin embargo, ha sido dotada de un pequeño número de propiedades mágicas que la hacen más eficaz en combate. Su afilada hoja, por ejemplo, atravesará la carne de tu oponente hasta llegar al hueso, mientras que su punta con púas buscará huecos en su armadura.
+
+ESTADÍSTICAS:
+
+Daño: 1D10 +1
+THACO: +1 bonus
+Tipo de daño: perforante
+Peso: 14
+Factor de velocidad: 8
+Tipo de competencia: Alabarda
+Tipo: Dos manos
+Requiere 13 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@54 = ~Martillo de guerra~
+@55 = ~Martillo de hielo +2~
+// Formely @217, note text description differs a bit between @56 (BGEE) and @217 (others)
+@56 = ~Los caballeros montados no pueden utilizar armas de asta larga a caballo, por lo que muchas armas se han dotado de cañas más cortas para poder blandirlas con una sola mano.  Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro.  El martillo de guerra del jinete es descendiente del martillo de Lucerna.  Está fabricado íntegramente en acero, con rondeles que protegen y refuerzan la empuñadura.  Las rondelas son pequeños discos de metal, a menudo con formas decorativas.  El mango mide unos 45 cm de largo.
+
+ESTADÍSTICAS:
+
+Daño: 1D4 + 1
+Tipo de daño: aplastante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Martillo de guerra
+Tipo: Una mano
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
+// Formely @218, note strength requirement differs between @57 (BGEE, requires 8) and @218 (others, requires 9)
+@57 = ~Martillo de hielo +2:
+'Escarcha de Mydans'
+Varios de estos martillos fueron fabricados por Gigantes de Hielo para sembrar el caos entre las aldeas locales. Molesta por la invasión humana de su territorio, la diosa del hielo Auril animó a los gigantes a crear armas capaces de causar grandes daños. Mydan, líder entre los suyos, creó este martillo en homenaje a su deidad. Complacida por el regalo, la diosa encantó el arma con el poder del hielo.
+
+ESTADÍSTICAS:
+
+THACO: +2 bonus
+Daño: 1D4 +2 (+1D3 daño de frío)
+Resistencia al frío: +30%
+Tipo de daño: aplastante
+Peso: 6
+Factor de velocidad 4
+Tipo de competencia: Martillo de guerra
+Tipo: Una mano
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
+
+@58 = ~Casco~
+@59 = ~Yelmo cormyriano~
+// Formely @309, note text description differs between @60 (BGEE, "open face") and @309 (others, "decorative", identical to BG1 @19724)
+@60 = ~Esta clase de casco decorativo, de cuero reforzado o metal, cubre la cara y la cabeza. Las aberturas para los ojos y los orificios de respiración son muy recomendables.
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: Ninguna
+Especial:  Protección contra golpes críticos
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
+// Formely @321
+@61 = ~Este yelmo ha pasado de generación en generación entre los Caballeros del Dragón Púrpura. El yelmo ha sido imbuido con propiedades mágicas para defenderse contra ciertos encantamientos...
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: Ninguna
+Especial:  Protege contra golpes críticos
+Protege contra ataques de Confusión, Pensamiento Rígido y Miedo
+Peso: 2
+No utilizable por:
+ Mago
+ Bardo
+ Ladrón~
+
+@62 = ~Yelmo de Kalindra~
+// Formely @310
+@63 = ~Este casco brilla al sostenerlo y el metal resulta extraño al tacto. La única prueba de su origen es el nombre Kalindra grabado en su interior.
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: Ninguna
+Especial: Protección contra golpes críticos
+El portador obtiene un bonificador +5 a las salvaciones contra petrificación y polimorfo.
+Peso: 2
+No utilizable por:
+ Mago
+ Bardo
+ Ladrón~
+
+@64 = ~Cuerno de la naturaleza~
+@65 = ~Cuerno de invocación~
+@66 = ~Los cuernos naturales se extraen de toros o bestias más exóticas. Los cuernos naturales tienen todo tipo de formas y tamaños, y la mayoría consta de una punta estrecha unida a un orificio circular más ancho mediante un asta hueca, a menudo curvada.
+ El cuerno se toca soplando en el extremo pequeño para producir una nota.
+ Los cuernos de este tipo son populares entre todas las razas de Faerûn..~
+// Formely @311
+@67 = ~Cuando se toca este cuerno, un profundo bramido llama al plano diabólico y desde el abismo se invoca a un demonio menor para que ayude a su amo de la forma que elija. La criatura sólo puede permanecer en el reino durante dos asaltos, pero puede ser invocada de nuevo cuando se toca el cuerno. Cuando el demonio está presente, todas las habilidades de lanzamiento de hechizos quedan inhabilitadas. El cuerno sólo puede invocar a un demonio un número reducido de veces, por lo que es mejor utilizarlo con prudencia.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se juega se invoca a un demonio menor para ayudar a su invocador.
+Duración: 2 asaltos
+Peso: 3
+Solo utilizable por:
+ Bardo~
+
+@68 = ~Lute~
+@69 = ~Laúd élfico~
+@70 = ~Tl laúd tiene una cazoleta en forma de pera y un característico mástil curvado con trastes para la digitación. Entre la base de la cazoleta y la parte superior del mástil hay entre cuatro y ocho cuerdas. Los laúdes miden entre 30 y 36 pulgadas, de las cuales dos tercios corresponden a la cazoleta. El músico rasguea o puntea las cuerdas para producir música.~
+// Formely @312, note effect strength +1 missing in @71 (BGEE) compared to @312 (others)
+@71 = ~Cassandra's Lute
+ 'El coraje de los leones'
+Cassandra empezó a tocar el laúd a los 5 años y a los 14 ya era una maestra. Su padre, Tarun Coriades, un talentoso luthier elfo, creó un laúd especial para su 16 cumpleaños. Fabricado con maderas místicas cercanas al Lago de los Sueños, el laúd fue creado para infundir confianza y valor al tocarlo. Cassandra viajó por muchas tierras y tocó en muchos lugares con el instrumento. Durante una visita a su tierra natal, Evermeet, el barco que la transportaba se encontró en alta mar y el laúd se perdió por la borda. El barco naufragó en Araska, pero Cassandra sobrevivió para seguir buscando su laúd hasta el día de hoy.
+   
+ESTADÍSTICAS:
+
+Especial: Cuando se juega, el ejecutante gana una sensación de confianza y coraje. 
+THACO: +1 bonus 
+Fuerza aumentada en 1 
+Inmunidad al miedo
+5 puntos de golpe temporales
+Duración: 5 Rondas
+Peso: 7
+Sólo utilizable por:
+  Bardo~
+
+@72 = ~Harmonica~
+@73 = ~La armónica u órgano de boca, como se conoce comúnmente, consiste en una serie de pequeñas lengüetas metálicas de tamaño graduado encerradas en ranuras en una caja estrecha y corta, que se sujeta contra los labios y se mueve de un lado a otro según la nota deseada. Este instrumento es muy popular entre los halflings y los gnomos.~
+// Formely @313
+@74 = ~Harmonica
+ 'Calor de Tarmaniels'
+Este órgano bucal fue creado por Tarmaniel, un bardo humano muy conocido en la tierra de Sembia. A Tarmaniel le gustaba viajar y compartir información con otros bardos. Cuando se toca, la armónica emite un sonido sin igual que calienta los corazones de sus oyentes.  Por desgracia, también le gustaba el juego y perdió la armónica en una partida de cartas en algún lugar de Puerta de Baldur.  
+
+ESTADÍSTICAS:
+
+Especiales: Bonificador +1 al Carisma
+El grupo gana un bonificador +1 a la CA
+Duración: 3 asaltos. 
+Alcance: 20
+Peso: 1
+Sólo utilizable por:
+  Bardo~
+
+@75 = ~Espejo~
+@76 = ~Espejo de la ilucion~
+@77 = ~Un espejo de aspecto sencillo.~
+@78 = ~El espejo es una de las herramientas favoritas de los ladrones y espías, y forma parte del arsenal de los pícaros. Este espejo ha sido encantado con la habilidad de desenfocar a su dueño durante 4 asaltos. Como muchos objetos mágicos, el espejo sólo puede usarse un número limitado de veces.~
+
+@79 = ~Orbe~
+@80 = ~Orbe de las tormentas~
+@81 = ~Muchos orbes son utilizados por magos y druidas para ver otras partes del reino y se dice que algunos muestran posibles futuros. Se dice que algunos orbes contienen poderes que pueden controlar los elementos, aunque son raros.~
+// Formely @314
+@82 = ~Este orbe brilla con una llama azul y empiezan a formarse nubes cuando lo mueves y cargas eléctricas lo recorren por dentro. Una palabra de comando libera al orbe de su energía y, como resultado, la luz cae del cielo. Cualquiera que sea golpeado por la iluminación debe hacer una tirada de salvación a -3 o recibir 2D6 de daño.
+
+ESTADÍSTICAS:
+
+Especial: Lanzar iluminación
+Daño: 2D6
+Alcance: 30
+Peso: 3
+Tirada de salvación: Neg
+Sólo utilizable por:
+ Driud
+ Mago
+ Bardo~
+
+@83 = ~Anillo~
+@84 = ~Anillo de la invisivilidad ~
+@85 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos raros tienen encantamientos que les confieren diversas habilidades mágicas. Estos anillos son muy codiciados, sobre todo por los aventureros.
+
+ESTADÍSTICAS:
+
+Peso: 0
+
+~
+// Formely @315
+@86 = ~Anillo de invisibilidad
+ 'Los ladrones escapan'
+Este anillo perteneció en su día a un capitán del mar de Calimshan llamado Josan Paris. Josan, un talentoso marino, capitaneaba un gran buque de guerra de Memnon cuyo propósito era liberar de piratas el Mar Luminoso. El anillo fue recuperado de un barco pirata y Josan lo guardó como recuerdo. Cuando descubrió su capacidad de invisibilidad, transformó su profesión en una más oportunista y acabó convirtiéndose en el tipo de pirata que una vez persiguió.  
+
+ESTADÍSTICAS:
+
+Especial: Cuando se activa el anillo su portador se vuelve invisible durante 2 asaltos
+
+No utilizable por:~
+
+@87 = ~Escudo medio~
+@88 = ~Blue Kite Shield~
+// Formely @219, note weight differs between @89 (BGEE, 8) and @219 (others, 7)
+@89 = ~Un escudo mediano se lleva de la misma manera que un escudo pequeño.  Sin embargo, a diferencia del escudo pequeño, su peso impide que el personaje utilice su mano escudera para otra cosa que no sea llevar el escudo mediano.  Los escudos medianos suelen ser de metal, tienen un diámetro de 3'-4' y pueden tener cualquier forma, desde redondos a cuadrados, pasando por las alas desplegadas de un dragón.  Un escudo medieval típico se asemeja a un triángulo con una punta hacia abajo.
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: 1
+Peso: 7
+Requiere 12 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+// Formely @220
+@90 = ~Se desconoce el origen de este extraño escudo, pero la forma difuminada de un wyrm azul que decora el exterior puede indicar que procede del antiguo imperio de Mulhorand, cerca de las montañas de Dragonsword. El escudo no lleva ninguna marca de armero ni cicatrices de batalla, lo que podría indicar que fue fabricado por arte de magia. Sea cual sea su naturaleza, su brillo azul lo convierte en un objeto preciado.
+  
+ESTADISTICAS:
+
+Bonificación por clase de armadura: 2
+Peso: 7
+Especial Protección contra fuego 30%
+Requiere 12 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+@91 = ~Escudo pequeño~
+@92 = ~Escudo de tormenta de Talos~
+// Formely @221, note weight differs between @93 (BGEE, 3) and @219 (others, 5)
+@93 = ~Un escudo pequeño suele ser redondo y se lleva en el antebrazo, agarrado con la mano del escudo.  Su poco peso en comparación con un escudo mediano permite al usuario llevar otros objetos en esa mano, aunque no puede empuñar ni llevar otra arma.
+
+ESTADÍSTICAS:
+
+Bonificación por clase de armadura: 1
+Especial:  Sin protección contra armas de proyectiles
+Peso: 3
+Requiere 4 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+// Formely @222
+@94 = ~Loran Emarin, an elven bard belonging to the Harper organization, heard a story about a golden-colored shield with the ability to protect against the elements. Intrigued by the story, the bard set out in search of the object. After several years of searching to no avail, the bard was about to give up. Then, on a cold night in a Neverwinter tavern, the elf overheard a conversation between a pair of Ohgma priests. They described the shield as belonging to a group of elite fighter/clerics, devoted followers of the stormlord Talos. Eventually, the shield was recovered and sold to the priesthood of Talos. Since then, its fate is unknown.
+
+ESTADÍSTICAS:
+
+Bonificación de clase de armadura: 2
+Peso: 5
+Especial: Bonificación de resistencia a la luz 30%
+Protección contra el frío 30%
+Protección contra el fuego 30%.
+El escudo contiene una pequeña carga eléctrica que puede descargarse sobre el objetivo, pero existe un 10% de probabilidad de que la carga también te afecte a ti.
+Requiere 4 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
+
+@95 = ~Gema~
+@96 = ~Piedra de Askavar~
+@97 = ~Una pequeña piedra de color azul del tamaño de un puño pequeño. La Piedra de Askavar es supuestamente un artefacto élfico que se perdió cuando la antigua comunidad élfica de Askavar cayó en la ruina. Supuestamente tiene grandes poderes de influencia, pero no tienes ni idea de cómo usarla.~
+
+@98 = ~Two Handed Sword~
+@99 = ~Espada larga +1~
+// Formely @223
+@100 = ~La espada a dos manos es un derivado de la espada larga.  Los armeros siempre han buscado formas de mejorar las armas existentes.  En un esfuerzo por mejorar el sable largo, se alargó la hoja.  Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir correctamente la espada.  La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas.
+
+ESTADÍSTICAS:
+
+Daño:  1D10
+Tipo de daño: cortante
+Peso: 15
+Factor de velocidad: 10
+Tipo de competencia: Espada a dos manos
+Tipo: dos manos
+Requiere 14 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
+// Formely @224, @101 (BGEE) still uses profeciency "Large Sword" from BG1
+@101 = ~Large Sword +1 :
+ 'El zafiro resplandeciente'
+Justo al norte de Aguas Profundas se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Ojo Esmeralda, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+THACO: +1
+Habilidades especiales: 
+Detectar el Mal
+Daño: 1D10 + 1, +1D3 Daño Frío 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: Espada a dos manos
+Tipo: Dos manos
+Requiere 14 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
+
+@102 = ~Bastard Sword~
+@103 = ~Espada ancha bárbara~
+// Formely @225
+@104 = ~También conocida como espada de mano y media, la espada bastarda debe su nombre a que se encuentra a medio camino entre la espada de dos manos y la espada larga. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, en la que caben las dos manos si se prefiere.  La longitud total de la espada bastarda oscila entre cuatro pies y cuatro pies y diez pulgadas.
+
+ESTADÍSTICAS:
+
+Daño: 2D4
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: Espada Bastarda
+Tipo: Una mano
+Requiere 11 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+// Formely @226
+@105 = ~Construida para los páramos de la tundra del norte, la Espada Ancha de Bárbaro ha sido templada para condiciones gélidas. El calor del metal proporciona una resistencia contra el duro clima frío.
+
+ESTADÍSTICAS:
+
+THACO: +1 bonus
+Daño: 2D4 + 1, 1D3 daño de Fuego
+Especial: 30% Protección contra el frío 
+Tipo de daño: cortante
+Peso: 8
+Factor de velocidad: 6
+Tipo de competencia: Espada Bastarda
+Tipo: Una mano
+Requiere 11 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+
+@106 = ~Sabre~
+@107 = ~Sable del puño rojo~
+// Formely @227, note weight differs between @108 (BGEE, 4) and @227 (others, 6)
+@108 = ~Arma de los Tuigan y los Nars, el sable es una espada larga y pesada especializada en los cortes largos utilizados en el combate a caballo..
+
+ESTADÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: cortante
+Peso: 6
+Factor de velocidad: 5
+Tipo de competencia: Espada larga
+Tipo: Espada larga 1 mano
+Requiere 6 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+// Formely @228
+@109 = ~Este sable perteneció en su día al capitán Ergern Conwell, oficial de caballería del Puño en Llamas. Se le concedió el sable por su valentía en la batalla. La habilidad del capitán con la espada casi igualaba su afinidad por las habitantes locales. Sin embargo, ninguna destreza con la espada pudo salvarle del venenoso filo de una amante demasiado celosa.
+
+ESTADÍSTICAS:
+
+THACO: +1 bonus
+Daño: 1d8 +1
+Especial: 30% de probabilidad de que el objetivo quede aturdido durante 1 asalto.
+Tipo de daño: cortante
+Peso: 6
+Factor de velocidad: 4
+Tipo de competencia: Espada larga
+Tipo: Una mano
+Requiere 6 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
+// Formely @229, note @110 (BGEE) still uses profeciency "Large Sword" from BG1
+@110 = ~Espada larga +1 :
+ 'El ojo de esmeralda'
+Justo al norte de Waterdeep se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Zafiro Brillante, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+THACO: +1
+Habilidades especiales: 
+Detectar el Mal
+Daño: 1d10 + 1, +1d3 Daño de Fuego 
+Tipo de daño: cortante
+Peso: 10
+Factor de velocidad: 8
+Tipo de competencia: Espada a dos manos
+Tipo: Dos manos
+Requiere 14 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
+
+@111 = ~Talisman~
+@112 = ~Talisman de la accion libre~
+@113 = ~Se dice que los talismanes de este tipo traen protección o buena suerte a su poseedor..~
+// Formely @316
+@114 = ~Talisman de la accion libre:
+ 'La estrella de Eloen'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Eloen. Lo más probable es que sea el regalo de una hija de elfo. 
+
+ESTADÍSTICAS:
+
+Especial:  El portador es inmune a todo aquello, mágico o no, que afecte a la movilidad de algún modo, aunque aún puede ser apresurado.   Ten en cuenta, sin embargo, que esto también protegerá al portador de efectos beneficiosos como los recibidos de las botas de velocidad.
+
+No utilizable por:~
+
+@115 = ~Talismán de protección contra el veneno ~
+// Formely @317
+@116 = ~Talismán de protección contra el veneno:
+ 'La estrella de Merris'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Merris. Probablemente el regalo de una hija de elfo. 
+
+ESTADÍSTICAS:
+
+Especial:  El portador es inmune a todas las formas de veneno y enfermedad.
+
+No utilizable por:~
+
+@117 = ~Talismán de protección +1~
+// Formely @318
+@118 = ~Talismán de protección +1
+ 'La estrella de Riona'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Riona. Probablemente el regalo de una hija de elfos. 
+
+ESTADÍSTICAS:
+
+Bonificación de clase de armadura: 1
+Bonificación por tirada de salvación: 1
+
+No utilizable por:~
+
+@119 = ~Talismán de resistencia al fuego~
+// Formely @319
+@120 = ~Talismán de resistencia al fuego:
+'La estrella de Ishara'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Ishara. Probablemente el regalo de una hija de elfo.
+
+
+ESTADÍSTICAS:
+
+Resistencia al fuego:  +30%
+
+No utilizable por:~
+
+@121 = ~Talismán de resistencia al frío~
+// Formely @320
+@122 = ~Talismán de resistencia al frío:
+'La estrella de Ilithyia'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Ilithyia. Lo más probable es que sea el regalo de una hija de elfa. 
+
+
+ESTADÍSTICAS:
+
+Resistencia al frío:  +30%
+
+No utilizable por:~
+
+@123 = ~Carta~
+@124 = ~Aranor
+
+Por fin hemos descubierto la ubicación de la piedra élfica perdida. Nos las arreglamos para cavar a través de una antigua entrada que conduce a una cámara subterránea. Desafortunadamente, mis exploradores informaron de la presencia de hobgoblins en la zona, así que tuve que sellar la entrada y protegerla de intrusos. La piedra está definitivamente en la cámara. Su inquietante brillo azul era inconfundible. Por ahora, la entrada sigue siendo indetectable, pero no sé cuánto durará la protección. Con esta carta te he enviado los cinco talismanes que Khelben nos dio. 
+
+Te aconsejo que no viajes al Bosque de los Dientes Afilados en este momento, por alguna razón el lugar está plagado de bandidos y hobgoblins. 
+
+Durante la próxima semana viajaré a Nashkel. Se celebra una feria, así que si me necesitáis podéis encontrarme allí.
+
+Tu amigo....
+
+Cearwin~
+
+@125 = ~Nota~
+@126 = ~Chica joven - Casa de pueblo en Beregost, cerca de la posada de Feldepost.
+
+Mendigo - Las calles de Beregost
+
+Viejo Mago - Bosque Bluebell
+
+Nigromante - Cueva en una isla al norte de Nashkel~
+
+@127 = ~Pergamino de protección~
+@128 = ~El pergamino maldito de Lizzy~
+@129 = ~Un pergamino de protección es un conjunto de runas mágicas impresas en un pergamino encantado. Estos pergaminos son únicos en el sentido de que cualquier clase de personaje puede leerlos, sea o no adepto a la magia. Cuando las runas se leen en voz alta, la magia protectora se libera sobre el objetivo elegido por el lector. Estos pergaminos pueden tener una gran variedad de efectos beneficiosos, aunque hay que tener cuidado con los pergaminos obtenidos de fuentes sospechosas.~
+@130 = ~Este pergamino está maldito. Los intentos de adivinar su naturaleza no revelan nada. Sería imprudente leerlo, ya que los efectos podrían ser fatales....~
+
+@131 = ~Ruby~
+@132 = ~Rubí de Corazón de Dragón~
+@133 = ~El rubí es una piedra preciosa de color carmesí o rosa, de un rojo intenso.~
+@134 = ~Este rubí parece un rubí cualquiera, pero al mirar en sus profundidades se ve claramente la cara de un dragón que le devuelve la mirada.~
+
+@135 = ~Aranor
+
+Tengo buenas y malas noticias. Por fin hemos descubierto la ubicación de la piedra élfica perdida. Nos las arreglamos para cavar a través de una antigua entrada que conduce a una cámara subterránea. Desafortunadamente mis exploradores informaron de hobgoblins en la zona, así que tuve que sellar la entrada y protegerla contra intrusiones. La piedra está definitivamente en la cámara. Su inquietante brillo azul era inconfundible. Por ahora la entrada es indetectable, pero no sé cuánto durará la protección. Originalmente te envié los cinco talismanes que Khelben nos dio, pero mi mensajero fue asesinado en el camino a Beregost por seguidores de Bane y los talismanes se perdieron. Espero que este mensajero te llegue. Mientras tanto, intentaré rastrear los talismanes.
+
+Aconsejaría no viajar al Bosque de los Dientes Afilados en este momento, por alguna razón el lugar está plagado de bandidos y hobgoblins. 
+
+Durante la próxima semana viajaré a Nashkel. Se está celebrando una feria, así que si me necesitáis podéis encontrarme allí.
+
+Tu amigo....
+
+Cearwin~
+
+@136 = ~pergamino~
+@137 = ~Los heraldos llaman~
+@138 = ~Los heraldos llaman (Enchantment/Charm)
+Level: 1
+Range: 40
+Duration: 1 rounds
+Casting Time: 0
+Area of Effect: 25
+Saving Throw: Neg
+This spell enables you to produce a crowd-stopping shout that holds an air of authority others find difficult to ignore. Anyone affected must make a Save vs. Spells at -2 or be stunned for 1 round. This spell can only be used by Bards.~
+
+@139 = ~Ice Dagger~
+@140 = ~Ice Dagger (Enchantment) 
+Level: 1
+Range: 20 +5 per caster level 
+Duration: Special 
+Casting Time: 2
+Area of Effect: Special 
+Saving Throw: None 
+By using this spell, the mage can create a magical dagger, which then flies out and hits a target opponent.  The dagger deals 1D4 of cold damage to the target per caster level (maximum 5D4).~
+
+@141 = ~Magic Shield~
+@142 = ~Magic Shield (Abjuration)
+Level: 3
+Range: 1
+Duration: 1 turn 
+Casting time: 3
+Area of Effect: Target 
+Saving Throw: None
+This spell provides 30% resistance to all forms of magical damage.  The effect lasts for 1 turn only. All saving throws are made automatically.~
+
+@143 = ~Mass Teleport~
+@144 = ~Mass Teleport (Alteration) 
+Level: 7
+Range: Sight of caster
+Duration: Instant 
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+This spell transports the party to any place within the visual range of the caster. The spell can be cast far away from the party and still be effective. When the spell is cast a dimensional portal opens up in front of each member, which they immediately step through.~
+
+
+@145 = ~Nybor's Mild Admonishment~
+@146 = ~Nybor's Mild Admonishment (Enchantment/Charm)
+Level: 3
+Range: 25ft. +5ft./2 levels
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Target
+Saving Throw: Special 
+This improvement on Nybor's gentle reminder causes intense pain in the subject. The subject must make a Save vs. Spells or be dazed for 2 rounds and suffer a -2 penalty on attacks, saving throws and AC while the spell lasts; however, the subject also receives a +2 bonus to strength.~
+
+@147 = ~Nybor's Wrathful Castigation~
+@148 = ~Nybor's Wrathful Castigation (Enchantment/Charm)
+Level: 8
+Range: 25 ft. + 5ft./2 levels
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Target
+Saving Throw: Special 
+Nybor's wrathful castigation is an even more potent version of Nybor's stern reproof. It causes wracking pain and violent convulsions. The target creature must make a Save vs. Death or die instantly. A surviving creature must make a Save vs. Spells to avoid further effects. Subjects failing the save are dazed for 4 rounds and suffer a -4 penalty on attacks, saving throws and AC for the duration of the spell. A drawback is that the subject also receives a +2 bonus to Strength.~
+
+@149 = ~Nybor's Gentle Reminder~
+@150 = ~Nybor's Gentle Reminder (Enchantment/Charm)
+Level: 1
+Range: 25
+Duration: 2 rounds
+Casting Time: 8
+Area of Effect: Target
+Saving Throw: Special 
+The subject receives a sharp, agonizing pain, which dazes the subject for 1 round. The target suffers a -1 penalty on attacks, saving throws and AC while the spell lasts; however the subject also receives a +2 bonus to strength.~
+
+@151 = ~Nybor's Stern Reproof~
+@152 = ~Nybor's Stern Reproof (Enchantment/Charm)
+Level: 7
+Range: 25 ft. + 5ft./2 levels
+Duration: 1 round/level
+Casting Time: 8
+Area of Effect: Target
+Saving Throw: Special 
+This spell causes stabbing pains even greater than Nybor's gentle reminder and Nybor's mild admonishment. The target creature must make a Save vs. Death or die instantly. A surviving creature receives a Save vs. Spells to avoid further effects. Subjects failing the save are dazed for 2 rounds and suffer a -2 penalty on attacks, saving throws and AC while the spell lasts; however the subject also receives a +2 bonus to strength.~
+
+@153 = ~Skeleton Armor~
+@154 = ~Skeleton Armor (Necromancy) 
+Level: 2
+Range: 0
+Duration: 20 turns 
+Area of Effect: caster 
+Saving Throw: None 
+The wizard uses the power of the undead to create a magical field of force that provides an Armor Class Bonus of  4. It is cumulative with Dexterity and, in the case of fighter/mages, with the shield bonus. The armor spell does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. It lasts until successfully dispelled or until the duration runs out.~
+
+@155 = ~Terror~
+@156 = ~Terror 
+(Necromancy) 
+Level: 6
+Range: 30 
+Duration: 3 rounds + 1/level 
+Casting Time: 4 
+Area of Effect: 30 foot cube
+Saving Throw: Neg. 
+This spell creates terror in your enemies. All enemies within the area of effect below 4th level have no saving throw and must flee in terror. Enemies above 5th level receive a saving throw at -4 against the effect.~
+
+@157 = ~Improved Sanctuary~
+@158 = ~Improved Sanctuary (Abjuration) 
+Level: 2
+Sphere: Protection 
+Range: Touch 
+Duration: 10 rounds
+Casting Time: 4 
+Area of Effect: Creature touched 
+Saving Throw: None 
+This spell behaves exactly like the Level 1 Sanctuary spell but is not restricted to the caster. The spell also regenerates 8 hit points for the duration.~
+
+@159 = ~Ingenuity~
+@160 = ~Ingenuity (Invocation)
+Level: 3
+Sphere: Combat 
+Range: 0 
+Duration: 3 turns 
+Casting Time: 5
+Area of Effect: Touch
+Saving Throw: None 
+This spell increases the ingenuity of the character. As a result the character becomes cleverer and more inventive. When this happens the Intelligence, Wisdom and Dexterity are raised by 1 point for every 3 levels of the caster. A 3rd level caster would raise the abilities by 1, while a 12th level caster  would raise the abilities by 4.~
+
+@161 = ~Khelben's Defensive Link~
+@162 = ~Khelben's Defensive Link
+(Abjuration) 
+Level: 5
+Sphere: Law
+Range: Caster
+Duration: 10 rounds
+Casting Time: 2
+Area of Effect: 15' radius
+Saving Throw: None
+Khelben's Defensive Link behaves like the Level 4 spell Defensive Harmony but each affected creature gains a +4 bonus to his armor class.  This lasts for 10 rounds or until successfully dispelled.~
+
+@163 = ~Andrath~
+@164 = ~Aranor~
+@165 = ~Carneth~  
+@166 = ~Cearwin~
+@167 = ~Cileen~     
+@168 = ~Hanwen~
+@169 = ~Harper Scout~
+@170 = ~Ithkim~
+@171 = ~Jonell~
+@172 = ~Lelthorn~
+@173 = ~Lizzy~
+@174 = ~Peleria~
+@175 = ~Pirn~
+@176 = ~Rebecca~
+@177 = ~Rondan~
+@178 = ~Sally~
+@179 = ~Shaerlee~
+@180 = ~Stone golem~
+@181 = ~Talmur~
+@182 = ~Teldorn Agent~
+@183 = ~Teldorn Archer~
+@184 = ~Banite Priest~
+@185 = ~Teldorn Fighter~
+@186 = ~Teldorn Messenger~
+@187 = ~Kalindra~
+
+@188 = ~Kalindra
+
+Es como nos temíamos. Teldorn ha enviado a su grupo de mercenarios y se dirige al sur, hacia la Costa de la Espada. Salieron de Voonlar hace sólo cinco días y para cuando leas este mensaje se habrán refugiado en la antigua torre de vigilancia de Dystra. Sin duda, otros se reunirán con ellos allí hasta que reciban nuevas órdenes. El hallazgo de la piedra élfica y el movimiento de estos mercenarios no es una coincidencia. Teldorn busca la piedra en persona, con ella podría convertir a la gente más bondadosa en asesinos malvados. No podemos permitir que esto suceda. Este pequeño ejército debe ser detenido antes de que lleguen al Bosque de los Dientes Afilados. Te dejo esta tarea a ti mi amigo, reúne las fuerzas que puedas reunir pero date prisa no hay tiempo que perder.
+
+Kathian~ 
+
+@193 = ~Mass Cure~
+@194 = ~Mass Cure (Necromancy) 
+Level: 5 
+Sphere: Healing 
+Range: Sight of caster 
+Duration: Permanent 
+Casting Time: 5 
+Area of Effect: 20 foot radius 
+Saving Throw: None 
+When casting this spell the priest must picture the faces of his fellow party members clearly and focus on the unity of the group. Upon completion all members in the party are healed 1D8 + 1/level hit points. This works regardless of where the party is in relation to one another. 
+Curing is permanent only insofar as the creature does not sustain further damage; caused wounds will heal - or can be cured - just as any normal injury.~
+@195 = ~Mordenkainen's Sword~
+
+@230 = ~Bluebell Wood~
+
+@300 = ~El Ojo Esmeralda~
+@301 = ~Shalendra~
+@302 = ~Kestrell~
+@303 = ~Dreadmaul~
+@304 = ~Ironclaw~
+
+@305 = ~Hanwen
+
+Nuestros espías han descubierto la ubicación de la piedra élfica. Los aradores han estado ocupados últimamente en el Bosque de los Dientes Afilados, cerca de las antiguas ruinas de Askavar. Creo que han descubierto su ubicación pero han sellado la entrada por ahora. He enviado a Cileen para ayudarte a entrar en las ruinas. Ella debería ser capaz de atravesar cualquiera de las barreras que han colocado. Andrath y Lelthorn pueden acompañarte, son luchadores muy capaces y te mantendrán a salvo. Una vez que hayas descubierto la piedra, apresúrate y regresa conmigo. Ya sabes dónde encontrarme.    
+
+Teldorn~

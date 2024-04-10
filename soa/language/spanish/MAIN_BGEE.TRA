@@ -1,0 +1,812 @@
+// BGEE specific texts
+
+//------------------------------------------------------------------------------------
+//  Creatures, characters, items, miscellaneous:
+//------------------------------------------------------------------------------------
+
+
+
+@2 = ~La cota de malla está hecha de anillos metálicos entrelazados.  Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.  
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 5 (3 contra cortante, 7 contra aplastante)
+Requiere
+ 8 Fuerza
+
+Peso: 40
+
+~
+
+@3 = ~Esta cota de malla fue hecha para la elfa del Sol Mecorima Sylerim. Mecorima era una elfa solar cuyas ambiciones iban mucho más allá de la sociedad élfica. Mecorima era una diplomática dotada que necesitaba algo más para protegerse de las facciones rivales. Para conseguirlo, mandó fabricar una cota de malla que le salvaría la vida de los intentos de asesinato y doblegaría la voluntad de los nobles. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3
+Habilidades equipadas:
+- Salvar contra Muerte: +5
+- Carisma: +2 
+
+Requiere
+ 5 Fuerza
+ 
+Peso: 20
+
+~
+
+
+
+@6 = ~La cota de malla es una combinación de armadura de cadenas con placas de metal que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla verdadera se compone de cadenas y cuero. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 3 (0 vs. cortante)
+Requiere
+ 12 Fuerza
+
+Peso: 50
+
+~
+
+@7 = ~Esta armadura casi parece viva cuando la sostienes. El material del que está hecha es ligero y envuelve el cuerpo como un cuero flexible. La única prueba de su origen es el nombre Kalindra grabado en su interior. 
+
+ESTADÍSTICAS:
+
+Clase de Armadura: 2
+Habilidades equipadas:
+- Tiradas de Salvación: +1 
+
+Requiere
+ 10 Fuerza
+ 
+Peso: 30
+
+~
+
+@9 = ~Maza de los valientes~
+
+@10 = ~La maza es un descendiente directo del garrote básico, que no es más que un asta de madera con una cabeza de piedra o hierro montada en el extremo. El diseño de la cabeza varía: Algunas tienen púas, otras pestañas y otras tienen pomos piramidales.
+
+ESTADÍSTICAS:
+
+Daño: 1d6+1 (aplastante)
+Factor de velocidad: 7
+Tipo de competencia: Maza
+Tipo: Maza A una mano
+Requiere
+ 10 Fuerza
+
+Peso: 8
+
+~
+
+@11 = ~Muchos seguidores de Chauntea llevan una maza como esta. La mayoría se entrega a los nuevos clérigos, pero algunas se mejoran mágicamente y se entregan a los estudiantes más dotados. Esta es un arma como esta.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al miedo: 30%
+
+THACO: +1
+Daño: 1D6 + 1(aplastante)
+Factor de velocidad: 5
+Tipo de competencia: Maza
+Tipo: A una mano
+Requiere
+ 9 Fuerza
+ 
+Peso: 7
+
+~
+
+
+
+@14 = ~El mazo es un martillo pesado muy utilizado en la construcción de barcos y edificios. Se trata de una herramienta doméstica muy popular en todo Faerûn, especialmente entre los constructores navales de Waterdeep. Su gran peso y su excelente balanceo lo convierten en un arma letal en combate. 
+
+ESTADÍSTICAS:
+
+Daño: 1d4+1 (aplastante)
+Factor de velocidad: 4
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 6
+
+~
+
+@15 = ~Este pesado mazo, también conocido como "El mazo de los poderosos", ha capeado el temporal de incontables guerras y batallas. Originalmente propiedad de un jefe de la tribu de los alces, el mazo se forjó para matar al creciente número de ogros y orcos a lo largo del río Dessarin. 
+
+ESTADÍSTICAS:
+
+THACO: +2
+Daño: 1d4+2 (aplastante)
+Factor de velocidad: 5
+Tipo de competencia: Martillo de Guerra
+Tipo: A una mano
+Requiere
+ 10 Fuerza
+ 
+Peso: 7
+
+~
+
+
+
+@18 = ~El lucero del alba es un asta de madera rematada con una cabeza de metal cubierta por una vaina de hierro con pinchos. Tienen una longitud total de unos cuatro pies. Algunas tienen una cabeza redonda, ovalada o cilíndrica con pinchos. De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
+
+ESTADÍSTICAS:
+
+Daño: 2d4 (aplastante)
+Factor de velocidad: 7
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: A una mano
+Requiere
+ 11 Fuerza
+
+Peso: 12
+
+~
+
+@19 = ~Lucero de alba +2:
+ 'Regalo de Ishandar'
+Golain pasó la mayor parte de su juventud con su padre explorando los Stronghorns alrededor de Cormyr. Su padre le enseñó a luchar y a apreciar la tierra que le rodeaba. Amante de la aventura y la geografía, se convirtió en explorador real de la familia Obarskyr. En una larga expedición con un equipo de exploradores inspeccionando tierras en las montañas del pico del Trueno, se fijó en una pequeña cueva digna de atención. Tras una pequeña pelea con varios orcos, descubrió un pequeño cofre lleno de oro y una Estrella de la Mañana que brillaba en la oscuridad. La Estrella de la Mañana permaneció con Golain durante algún tiempo hasta que perdió la vida luchando contra los Ogros en los Stronghorns.  
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño 2d4 +2
+Tipo de daño: aplastante
+Factor de velocidad: 6
+Tipo de competencia: Mayal/Morningstar
+Tipo A una mano
+Requiere:
+ 10 Fuerza
+ 
+Peso: 10
+~
+
+
+
+
+@23 = ~Libro de las llamas
+Este libro, que una vez estuvo en manos de un archimago mago rojo, fue robado por un esclavo fugitivo y sacado de contrabando de Thay a la seguridad de Dalelands. El libro está encuadernado en piel humana, resultado de innumerables experimentos con esclavos. Como resultado, tiene un aura que sólo los personajes malvados pueden usar. 
+
+ESTADÍSTICAS:
+
+Especial:  Al abrirse, un arco de llamas alcanza al objetivo
+Daño: 2d3
+Alcance: 0 
+Duración: Instantánea 
+Tiempo de lanzamiento: 1
+Área de Efecto: El Casteador
+Tirada de Salvación: Ninguno
+
+~
+
+
+
+@26 = ~Los arcos compuestos son arcos largos o cortos cuyas duelas están hechas de más de un tipo de material. Esto les da mayor flexibilidad y hace que las flechas disparadas con este arco causen más daño. Se desarrollaron después del arco largo normal.
+
+ESTADÍSTICAS:
+
+THAC0: +1
+Daño: +2
+Factor de velocidad: 7
+Tipo de competencia: Arco Largo
+Tipo: Arco largo A dos manos
+Requiere
+ 18 Fuerza
+
+Peso: 10
+
+~
+
+@27 = ~Arco largo compuesto +2:
+'La maldición de la Medussa'
+Durante el año de la Hoja Rota nació Laeroth. En su juventud se convirtió en un maestro del arco y tenía el mejor ojo para la precisión de su aldea élfica. Se contaban historias de una Medussa escondida en una cueva de las montañas cercanas. Como prueba de valor le correspondió a Laeroth entregar la cabeza de dicha bestia. Tras hablar con los ancianos de su aldea, se fabricó un arco para enfrentarse a semejante enemigo. Construido con madera de weirwood, el arco estaba hecho para ser fiel a su usuario y resistir la mirada de ciertas criaturas. Un largo viaje siguió antes de llegar a la guarida de Medussa. Dentro de la cueva, Laeroth utilizó una piedra incandescente para orientarse. Tras atravesar formas de piedra, resultado de innumerables intentos fallidos de capturar a la bestia, Laeroth finalmente dio con su presa. Cara a cara con el Medussa la mirada se posó sobre él. Al principio se quedó paralizado para hacer cualquier cosa, pero con el arco en la mano los efectos de la mirada se neutralizaron y comenzó la lucha por el dominio. Un arco contra otro, ambos adversarios se apuntaron mutuamente. El Medussa disparó primero y una flecha envenenada se alojó en su hombro justo cuando el arco de Weirwood disparó su propia flecha a la cabeza del Medussa. El monstruo se retorció de dolor, pero Laeroth bebió un antídoto contra el veneno a tiempo para ver los últimos estertores de la Medussa. Con mano firme se acercó a la criatura y le cortó la cabeza. Tras regresar a su aldea, guardó la cabeza en un lugar seguro para utilizarla contra los orcos en caso de necesidad. Laeroth viajó en sus últimos años y acabó vendiendo el arco por una gran suma de oro.  
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Protección contra la petrificación 
+
+THACO: +2
+Daño: +2
+Factor de velocidad: 6
+Tipo de competencia: Arco Largo
+Tipo: A dos manos
+Requiere:
+ 18 Fuerza
+ 
+Peso: 9
+
+~
+
+
+
+
+@31 = ~La Capa de Viaje es una prenda ligera que proporciona protección adicional contra los elementos. Además, la capa otorga una bonificación a la CA.
+ 
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1 
+- Resistencia al frío y al fuego: 20%.
+
+Peso: 3
+
+~
+
+
+
+
+
+@35 = ~Esta túnica blanca lleva bordadas las formas de numerosas arañas por toda su superficie. El portador es inmune a cualquier efecto que cause estorbo, como telaraña y ralentización. Anula los efectos de los hechizos de parálisis y retención. La túnica también permite al mago lanzar un hechizo de retención sobre un objetivo, pero su duración se limita a un solo asalto.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Acción libre (protege al mago de cualquier magia que afecte al movimiento, como el inmovilizar y la telaraña).
+- Clase de Armadura: 6
+
+Habilidades de carga:
+- Sujetar Persona
+  Alcance: Alcance visual del lanzador 
+  Duración: 1 turno
+  Área de efecto: Especial
+  Tirada de salvación: Anula
+
+Peso: 6
+
+~
+
+
+
+@38 = ~La daga típica tiene una hoja puntiaguda, normalmente de doble filo, a diferencia del cuchillo, que tiene un solo filo y es un poco más corto.
+
+ESTADÍSTICAS:
+
+Daño: 1d4 (perforante)
+Factor de velocidad: 2
+Tipo de competencia: Daga
+Tipo: A una mano
+Requiere
+ 3 Fuerza
+
+Peso: 1
+
+~
+
+@39 = ~Daga +1:
+ 'La daga del desafío'
+Estas dagas se crearon por primera vez en Myth Drannor. Esta daga en particular ha adornado las manos de pícaros, ladrones y bandidos por igual.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Salvar vs hechizo: +2
+- Inmunidad al miedo y al encanto 
+
+THACO: +1
+Daño 1D4 +1 (perforante)
+Factor de velocidad: 2
+Tipo de competencia: Daga
+Tipo: A una mano
+Requiere
+ 3 Fuerza
+
+Peso: 1
+
+~
+
+
+
+
+@43 = ~El Tabor Drum o Snare Drum es uno de los favoritos de Kobolds y Enanos. Llevado bajo el brazo o delante del cuerpo, el tambor puede dar un ritmo constante. Si se tocan juntos, su sonido puede confundirse con el avance de un pequeño ejército y asustar a la mayoría de las criaturas a su alcance.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se toca, el objetivo debe realizar una tirada de salvación a -2 o el sonido del tambor causa pánico.
+Alcance: 40
+Duración: 2 asaltos
+Peso: 5
+
+~
+ 
+
+@45 = ~Los tambores de este tipo se conocen como Congos y son uno de los instrumentos favoritos de las criaturas más grandes del reino, como Ogros y Gigantes, por su profundo sonido. Cuando se tocan juntos, el tambor da la impresión de un ejército marchando a la batalla, lo que puede asustar a la mayoría de las criaturas al alcance del oído.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se toca, el objetivo debe realizar una tirada de salvación a -2 o el sonido del tambor causa pánico.
+Alcance: 60
+Duración: 2 asaltos
+Peso: 8
+
+~
+
+
+
+
+@49 = ~Esta perla de apariencia normal irradia un ligero encanto si se detecta magia. En cualquier caso, la piedra será muy hermosa y valdrá al menos 1.000 gp sólo por este motivo. Si se sujeta firmemente en la mano (o en el pecho) y el poseedor intenta acciones relacionadas con las áreas de poder de la perla, comprenderá y podrá emplear el objeto.
+    La perla permite a su poseedor lanzar Encantamiento funesto sobre un objetivo. La perla debe ser sostenida por su poseedor para transmitir sus poderes. Sin embargo, estas perlas sólo tienen un número limitado de cargas.
+
+ESTADÍSTICAS:
+
+Habilidades de carga:
+- Encantar persona  (Neg)
+  Alcance: 20
+  Duración: 4 asaltos
+  Área de Efecto: 1 criatura
+
+Peso: 1
+
+~
+
+
+
+@52 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada, y consiste en un hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud. La hoja del hacha está equilibrada en la parte trasera con una aleta y rematada por una punta afilada, normalmente de diseño cuadrangular. A veces se sustituye por un gancho para desmontar a la caballería. Una alabarda puede describirse como un cruce entre una lanza y un hacha.
+
+ESTADÍSTICAS:
+
+Daño: 1d10 (cortante o perforante, el que sea mejor)
+Factor de velocidad: 9
+Tipo de competencia: Alabarda
+Tipo: A dos manos
+Requiere
+ 13 Fuerza
+
+Peso: 15
+
+~
+
+@53 = ~Como otras de su tipo, esta alabarda consiste en una hoja de hacha en forma de cuchilla montada sobre un bastón de unos dos metros de longitud. Sin embargo, ha sido dotada de un pequeño número de propiedades mágicas que la hacen más eficaz en combate. Su afilada hoja, por ejemplo, atravesará la carne de tu oponente hasta llegar al hueso, mientras que su punta con púas buscará huecos en su armadura.
+
+ESTADÍSTICAS:
+
+THACO: +1
+Daño: 1d10+1 (cortante o perforante, el que sea mejor)
+Factor de velocidad: 8
+Tipo de competencia: Alabarda
+Tipo: A dos manos
+Requiere
+ 13 Fuerza
+ 
+Peso: 14
+
+~
+
+
+
+@56 = ~Los caballeros montados no pueden utilizar eficazmente las armas de asta larga mientras cabalgan y, como resultado, muchas armas han sido equipadas con astiles más cortos para que puedan ser empuñadas con una sola mano. Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro. El martillo de guerra del jinete es descendiente del martillo de Lucerna. Está hecho completamente de acero, con rondeles que protegen y refuerzan la empuñadura. (El mango mide unos dieciocho centímetros de largo.
+
+ESTADÍSTICAS:
+
+Daño: 1d4+1 (aplastante)
+Factor de velocidad: 4
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 6
+
+~
+
+@57 = ~Martillo de hielo +2:
+'Escarcha de Mydans'
+Varios de estos martillos fueron fabricados por Gigantes de Hielo para sembrar el caos entre las aldeas locales. Molesta por la invasión humana de su territorio, la diosa del hielo Auril animó a los gigantes a crear armas capaces de causar grandes daños. Mydan, líder entre los suyos, creó este martillo en homenaje a su deidad. Complacida por el regalo, la diosa encantó el arma con el poder del hielo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al frío: +30%
+
+THACO: +2 
+Daño: 1d4 +2 (+1d3 Daño de frío)
+Tipo de daño: aplastante
+Factor de velocidad: 4
+Tipo de competencia: Martillo de Guerra
+Tipo: A una mano
+Requiere
+ 9 Fuerza
+ 
+Weight: 6
+
+~
+
+
+
+@60 = ~Esta clase de casco abierto, fabricado en cuero reforzado o metal, cubre la mayor parte de la cabeza, salvo la cara y el cuello. Estos cascos suelen proteger la nariz. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Protección contra golpes críticos
+
+Peso: 2 
+
+~
+
+@61 = ~Este yelmo ha pasado de generación en generación entre los Caballeros del Dragón Púrpura. El yelmo ha sido imbuido con propiedades mágicas para defenderse contra ciertos encantamientos...
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Protege contra golpes críticos, Confusión, Pensamiento rígido y Ataques de miedo.
+
+Peso: 2
+
+~
+
+
+@63 = ~Este casco brilla al sostenerlo y el metal resulta extraño al tacto. La única prueba de su origen es el nombre Kalindra grabado en su interior.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Protección contra golpes críticos
+
+Especial:
+- El portador obtiene un bonificador +5 a las salvaciones vs. petrificación y polimorfo.
+
+Peso: 2
+
+~
+
+
+
+
+@67 = ~Cuando se toca este cuerno, un profundo bramido llama al plano diabólico y desde el abismo se invoca a un demonio menor para que ayude a su amo de la forma que elija. La criatura sólo puede permanecer en el reino durante dos asaltos, pero puede ser invocada de nuevo cuando se toca el cuerno. Cuando el demonio está presente, todas las habilidades de lanzamiento de hechizos quedan inhabilitadas. El cuerno sólo puede invocar a un demonio un número reducido de veces, por lo que es mejor utilizarlo con prudencia.
+
+ESTADÍSTICAS:
+
+Especial: Cuando se juega se invoca a un demonio menor para ayudar a su invocador.
+Duración: 2 asaltos
+
+Peso: 3
+
+~
+
+
+
+
+@71 = ~El laúd de Cassandra
+ 'El coraje de los leones'
+Cassandra empezó a tocar el laúd a los 5 años y a los 14 ya era una maestra. Su padre, Tarun Coriades, un talentoso luthier elfo, creó un laúd especial para su 16 cumpleaños. Fabricado con maderas místicas cercanas al Lago de los Sueños, el laúd fue creado para infundir confianza y valor al tocarlo. Cassandra viajó por muchas tierras y tocó en muchos lugares con el instrumento. Durante una visita a su tierra natal, Evermeet, el barco que la transportaba se encontró en alta mar y el laúd se perdió por la borda. El barco naufragó en Araska, pero Cassandra sobrevivió para seguir buscando su laúd hasta el día de hoy.
+   
+ESTADÍSTICAS:
+
+Especial: Cuando se juega, el ejecutante gana una sensación de confianza y coraje. 
+THACO: +1 bonus 
+Fuerza aumentada en 1 
+Inmunidad al miedo
+5 puntos de golpe temporales
+Duración: 5 Rondas
+
+Peso: 7
+
+~
+
+
+
+@74 = ~Harmonica
+ 'Calor de Tarmaniels'
+Este órgano bucal fue creado por Tarmaniel, un bardo humano muy conocido en la tierra de Sembia. A Tarmaniel le gustaba viajar y compartir información con otros bardos. Cuando se toca, la armónica emite un sonido sin igual que calienta los corazones de sus oyentes.  Por desgracia, también le gustaba el juego y perdió la armónica en una partida de cartas en algún lugar de Baldurs Gate.  
+
+ESTADÍSTICAS:
+
+Especiales: Bonificador +1 al Carisma
+El grupo gana un bonificador +1 a la CA
+Duración: 3 asaltos. 
+Alcance: 20
+
+Peso: 1 
+
+~
+
+
+
+
+
+
+
+
+
+@82 = ~Este orbe brilla con una llama azul y empiezan a formarse nubes cuando lo mueves y cargas eléctricas lo recorren por dentro. Una palabra de comando libera al orbe de su energía y, como resultado, la luz cae del cielo. Cualquiera que sea golpeado por la iluminación debe hacer una tirada de salvación a -3 o recibir 2d6 de daño.
+
+ESTADÍSTICAS:
+
+Habilidades de carga:
+- Lanzar iluminación (Neg)
+  Daño: 2d6
+  Alcance: 30
+
+Peso: 3
+
+~
+
+
+
+@85 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos raros tienen encantamientos que les confieren diversas habilidades mágicas. Estos anillos son muy codiciados, sobre todo por los aventureros.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+@86 = ~Anillo de invisibilidad
+ 'La fuga de los ladrones'
+Este anillo perteneció en su día a un capitán del mar de Calimshan llamado Josan Paris. Josan, un talentoso marino, capitaneaba un gran buque de guerra de Memnon cuyo propósito era liberar de piratas el Mar Luminoso. El anillo fue recuperado de un barco pirata y Josan lo guardó como recuerdo. Cuando descubrió su capacidad de invisibilidad, transformó su profesión en una más oportunista y acabó convirtiéndose en el tipo de pirata que una vez persiguió.  
+
+ESTADÍSTICAS:
+
+Especial: Cuando se activa el anillo, su portador se vuelve invisible durante 2 asaltos.~
+
+
+
+@89 = ~Un escudo mediano se lleva de la misma manera que un escudo pequeño. Sin embargo, a diferencia del escudo pequeño, su peso impide que el personaje utilice la mano del escudo para otra cosa que no sea llevar el escudo mediano. Los escudos medianos suelen ser de metal, miden entre tres y cuatro pies de diámetro y pueden tener cualquier forma, desde redonda a cuadrada, pasando por las alas desplegadas de un dragón. Un escudo medieval típico se asemeja a un triángulo con una punta hacia abajo.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1
+
+Requiere
+ 12 Fuerza
+
+Peso: 7
+
+~
+
+@90 = ~Se desconoce el origen de este extraño escudo, pero la forma difuminada de un wyrm azul que decora el exterior puede indicar que procede del antiguo imperio de Mulhorand, cerca de las montañas de Dragonsword. El escudo no lleva ninguna marca de armero ni cicatrices de batalla, lo que podría indicar que fue fabricado por arte de magia. Sea cual sea su naturaleza, su brillo azul lo convierte en un objeto preciado.
+  
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+- Protección contra fuego: 30%
+
+Requiere 
+ 12 Fuerza
+
+Peso: 7
+
+~
+
+
+
+@93 = ~Un escudo pequeño suele ser redondo y se lleva en el antebrazo, agarrado con la mano del escudo. Su ligereza en comparación con un escudo mediano permite al usuario llevar otros objetos en esa mano, aunque no puede empuñar ni llevar otra arma. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1
+- Sin protección contra ataques de misiles
+
+Requiere
+ 4 Fuerza
+
+Peso: 3
+
+~
+
+@94 = ~Loran Emarin, un bardo elfo perteneciente a la organización Harper, escuchó una historia sobre un escudo de color dorado con la capacidad de proteger contra los elementos. Intrigado por la historia, el bardo emprendió la búsqueda del objeto. Tras varios años de búsqueda sin resultados, el bardo estuvo a punto de darse por vencido. Entonces, en una fría noche en una taberna de Neverwinter, el elfo escuchó una conversación entre un par de sacerdotes de Ohgma. Describieron el escudo como perteneciente a un grupo de luchadores/clérigos de élite, devotos seguidores del señor de la tormenta Talos. Finalmente, el escudo fue recuperado y vendido al sacerdocio de Talos. Desde entonces se desconoce su destino.
+ 
+STATISTICS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+- Sin protección contra ataques de misiles
+- Resistencia a la luz: 30%
+- Protección contra el frío: 30%
+- Protección contra el fuego 30%
+
+Especial:
+- Escudo contiene una pequeña Carga Eléctrica que puede descargarse sobre el objetivo, pero hay un 10% de probabilidades de que la carga también te afecte a ti.
+
+Requiere
+ 4 Fuerza
+ 
+Peso: 5
+
+~
+
+
+
+
+
+
+
+@100 = ~La espada a dos manos es un derivado de la espada larga. Los armeros siempre han buscado formas de mejorar las armas existentes. En un esfuerzo por mejorar el sable largo, se alargó la hoja. Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir correctamente la espada. La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas.
+
+ESTADÍSTICAS:
+
+Daño: 1d10 (cortante)
+Factor de velocidad: 10
+Tipo de competencia: Espada a dos manos
+Tipo: dos manos
+Requiere
+ 14 Fuerza
+
+Peso: 15
+
+~
+
+@101 = ~Espada Larga +1 :
+ 'El zafiro resplandeciente'
+Justo al norte de Aguas Profundas se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Ojo Esmeralda, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- THACO: +1
+- Detectar el Mal
+
+Daño: 1d10 + 1, +1d3 Daño Frío 
+Tipo de daño: cortante
+Factor de velocidad: 8
+Tipo de competencia: Espada a dos manos
+Tipo: A dos manos
+Requiere
+ 14 Fuerza
+
+Peso: 10
+
+~
+
+
+
+@104 = ~También conocida como espada de mano y media, la espada bastarda debe su nombre a que se encuentra a medio camino entre la espada de dos manos y la espada larga. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, en la que caben las dos manos si se prefiere. La longitud total de la espada bastarda oscila entre cuatro pies y cuatro pies y diez pulgadas.
+
+ESTADÍSTICAS:
+
+Daño: 2d4 (cortante)
+Factor de velocidad: 8
+Tipo de competencia: Espada Bastarda
+Tipo: A una mano
+Requiere
+ 11 Fuerza
+
+Peso: 10
+
+~
+
+@105 = ~Construida para los páramos de la tundra del norte, la Espada Ancha de Bárbaro ha sido templada para condiciones gélidas. El calor del metal proporciona una resistencia contra el duro clima frío.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- THACO: +1
+- Protección contra el frío: 30% 
+
+Daño: 2D4 + 1, 1D3 daño de Fuego
+Tipo de daño: cortante
+Factor de velocidad: 6
+Tipo de competencia: Espada Bastarda
+Tipo: A una mano
+Requiere
+ 11 Fuerza
+ 
+Peso: 8
+
+~
+
+
+
+@108 = ~Arma de los Tuigan y los Nars, el sable es una espada larga y pesada especializada en los cortes largos utilizados en el combate a caballo.
+
+ESTADÍSTICAS:
+
+Daño: 1d8 (cortante)
+Factor de velocidad: 5
+Tipo de competencia: Cimitarra/Wakizashi/Ninjato
+Tipo: Una mano
+Requiere:
+ 6 Fuerza
+
+Peso: 4
+
+~
+
+@109 = ~Este sable perteneció en su día al capitán Ergern Conwell, oficial de caballería del Puño en Llamas. Se le concedió el sable por su valentía en la batalla. La habilidad del capitán con la espada casi igualaba su afinidad por las habitantes locales. Sin embargo, ninguna destreza con la espada pudo salvarle del venenoso filo de una amante demasiado celosa.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- THACO: +1
+
+Daño: 1D8 +1 (cortante)
+Factor de velocidad: 4
+Tipo de competencia: Cimitarra/Wakizashi/Ninjato
+Tipo: Una mano
+Requiere
+ 6 Fuerza
+ 
+Peso: 6
+
+~
+
+@110 = ~Espada Larga +1 :
+ 'Ojo de esmeralda'
+Justo al norte de Aguas Profundas se encuentra el pueblo de Amphail y el hogar de un Maestro Herrero Enano llamado Kathian Manos de Martillo. Esta espada, junto con su hermana, el Zafiro Brillante, fue creada por el herrero para ayudar a los Harpers en su lucha contra los espías Zhentarim.
+
+ESTADÍSTICAS:
+
+
+Habilidades equipadas:
+- THACO: +1
+- Detectar el Mal
+
+Daño: 1d10 + 1, +1d3 Daño de Fuego 
+Tipo de daño: cortante
+Factor de velocidad: 8
+Tipo de competencia: Espada a dos manos
+Tipo: A dos manos
+Requiere
+ 14 Fuerza
+
+Peso: 10
+
+~
+
+
+
+
+@114 = ~Talismán de la acción libre:
+ 'La estrella de Eloen'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Eloen. Probablemente el regalo de una hija de elfos. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- El portador es inmune a todo aquello, mágico o no, que afecte a la movilidad de algún modo, aunque aún puede ser apresurado. Ten en cuenta, sin embargo, que esto también protegerá al portador de efectos beneficiosos como los recibidos de las botas de velocidad.
+
+~
+
+@116 = ~Talismán de protección contra el veneno:
+ 'La estrella de Merris'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Merris. Probablemente el regalo de una hija de elfo. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- El portador es inmune a todas las formas de veneno y enfermedad.
+
+~
+
+@118 = ~Talismán de protección +1
+ 'La estrella de Riona'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Riona. Probablemente el regalo de una hija de elfo. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +1
+- Tiradas de salvación: +1
+
+~
+
+@120 = ~Talismán de resistencia al fuego:
+'Estrella de Ishara'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Ishara. Probablemente el regalo de una hija de elfo. 
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al fuego: +30%
+
+~
+
+@122 = ~Talismán de la resistencia al frío:
+'La estrella de Ilithyia'
+Se desconoce la historia de este talismán, pero se han encontrado varios grabados con el nombre de una mujer elfa. Este talismán lleva grabado el nombre de Ilithyia. Probablemente el regalo de una hija de elfo. 
+
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al frío: +30%
+
+~

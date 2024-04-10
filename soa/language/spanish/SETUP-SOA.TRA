@@ -1,0 +1,141 @@
+/* Components:  */
+@189 = ~*       Este archivo se instalará          *~
+@190 = ~*        en tu directorio BG           *~
+@191 = ~*Tales of the Swordcoast no está instalado. La instalación de La Piedra de Askavar no continuará.*~
+@192 = ~La Piedra de Askavar para TotSC/Tutu/BGT/BGEE~
+
+/* Setup feedback:  */
+@196 = ~Cuentos de la Costa de la Espada detectado. Instalando...~
+@197 = ~Este mod debe instalarse en la carpeta BG1, EasyTutu, BGT o BGEE~
+@198 = ~Instalación de Tutu detectada. Utilizar el código de instalación de Tutu...~
+@199 = ~Ahora se instalarán los sonidos y las nuevas zonas. Pulse Intro para salir y espere a que finalice el proceso de instalación.~
+@200 = ~Instalación BGT detectada. Uso del código de instalación BGT...~
+@231 = ~Instalación de BGEE detectada. Uso del código de instalación BGEE...~
+@232 = ~Actualización del mapa del mundo...~
+@233 = ~Versión por defecto: zonas conectadas por activadores de desplazamiento~
+@234 = ~Plataformas compatibles: TotSC, BGEE, BGT, Tutu. Las expansiones TotSC y ToB son necesarias para BGT/Tutu.~
+@235 = ~Instalación de animaciones de criaturas...~
+@236 = ~Versión del mapa del mundo de BP-BGT: todas las zonas añadidas al mapa del mundo (requires BP-BGT Worldmap)~
+@237 = ~Instalación de animaciones de criaturas...~
+@238 = ~La Piedra de Askavar para Tutu/BGT/BGEE~
+
+//Anotaciones en el diario...
+
+//Entrega carta a Aranor en Beregost
+
+@10000  = ~Entrega carta a Aranor en Beregost~
+
+//@34 (Cearwin.tra) @53(Aranor.tra)
+@10001  = ~Entrega carta a Aranor en Beregost
+
+He hablado con el bardo Cearwin que requiere la entrega de un mensaje a Beregost. Me ha ofrecido 250 de oro por la tarea.~
+
+//@16(Aranor.tra)
+@10002  = ~Entrega carta a Aranor en Beregost
+
+He entregado el mensaje de Cearwin a Aranor. Espero que haya valido la pena llegar hasta aquí.~
+
+//@19(Aranor.tra)
+@10003  = ~Entrega carta a Aranor en Beregost
+
+Después de un largo viaje, finalmente he entregado el mensaje de Cearwin a Aranor. Espero que haya valido la pena llegar hasta aquí.~
+
+//Encuentra los cinco talismanes perdidos
+@10004  = ~Busca los talismanes perdidos~
+
+//@30(Aranor.tra) @62 (Cearwin.tra)
+@10005  = ~Busca los talismanes perdidos
+
+Los talismanes robados a Cearwin contienen la clave para acceder a la cámara subterránea donde se encuentra la piedra. Aranor cree que Teldorn, un seguidor de Bane no será consciente de su importancia y sugiere que viaje de vuelta a Nashkel para ver qué noticias tiene Cearwin de ellos.~
+
+//@49 (Cearwin.tra)
+@10006  = ~Busca los talismanes perdidos
+
+Cearwin ha descubierto la ubicación de los talismanes robados. Por desgracia, parece que están dispersos por la Costa de la Espada. Llevará algún tiempo encontrarlos. Hay rumores sobre mercenarios alrededor de la antigua torre de vigilancia de Dystra, un lugar muy al este de aquí. Debería investigar la zona.~
+
+//Recupera la Piedra de Askavar
+
+@10007 = ~Recupera la Piedra de Askavar~
+
+//@59 (Cearwin.tra) 
+@10008 = ~Recupera la Piedra de Askavar
+
+Con todos los talismanes en mis manos, Cearwin me ha dirigido al Bosque de los Dientes Afilados y a la entrada de la cámara subterránea donde se encuentra la piedra. La entrada se encuentra entre las ruinas del antiguo templo. Cearwin espera que la entrada aún permanezca oculta.~
+
+//@54 (Aranor.tra)
+@10009 = ~Recupera la Piedra de Askavar
+
+Debo recuperar la Piedra de Askavar antes de que los seguidores Bane de Teldorn pongan sus manos en ella.~
+
+//@52 (Aranor.tra)
+@10010 = ~Recupera la Piedra de Askavar
+
+Recuperé la Piedra de Askavar y se la pasé a Aranor. No dude que Cearwin estará complacido. Espero que la piedra élfica les de la ventaja que necesitan contra los seguidores de Bane, Cyric y Mask..~
+
+//@20 (Lizzy.tra)
+@10011 = ~Rescata a Rebeca~
+
+@10012 = ~Rescata a Rebeca
+
+Me reuní con una joven llamada Lizzy cuya madre fue asesinada y su hermana Rebecca secuestrada por un grupo de villanos. He accedido a ayudarla. Lizzy dijo que la guardia del pueblo los había seguido al este de aquí, pasando el templo.~
+
+@10013 = ~Rescata a Rebeca
+
+He rescatado a Rebecca de los villanos. Como recompensa me dio uno de los talismanes. Espero que Rebeca y su hermana estén bien.~
+
+//Resuelve el enigma de Carneth
+@10014 = ~Resuelve el enigma de Carneth~
+
+@10015 = ~Resuelve el enigma de Carneth
+
+Debo resolver un enigma para Carneth antes de que me dé información.~
+
+@10016 = ~He escrito el enigma de Carneth en mi diario para poner a prueba a mis compañeros de viaje.
+
+Soy cuatro veces mayor que mi hija. Dentro de veinte años tendré el doble que ella. Qué viejos somos ahora.
+Yo tengo 60 años y mi hija 15.
+Tengo 28 años y mi hija tiene 7.
+Tengo 36 años y mi hija tiene 9.
+Tengo 40 años y mi hija tiene 10.
+Tengo 48 años y mi hija 12.~
+
+@10017 = ~Resuelve el enigma de Carneth
+
+He resuelto el enigma de Carneth.~
+
+//Rubí Corazón de Dragón
+@10018 = ~Adquiere el rubí Corazón de dragón~
+
+//@33 (Carneth.tra)
+@10019 = ~Adquiere el rubí Corazón de dragón
+
+Carneth quiere que adquiera el rubí Corazón de Dragón de la tienda local. Suena como un artefacto mágico, sin duda será caro.~
+
+//@34 (Carneth.tra)
+@10020 = ~Adquiere el rubí Corazón de dragón
+
+Después de adquirir el rubí Corazón de Dragón para Carneth me ha dado el talismán que busco. La Estrella de Merris.~
+
+@10021  = ~Encuentra los talismanes perdidos
+
+Tras recorrer la Costa de la Espada, he recuperado todos los talismanes perdidos.~
+
+//Recupera los instrumentos de Kestrell
+
+@10022 = ~Encuentra los instrumentos robados de Kestrell~
+
+
+
+@10023 = ~Encuentra los instrumentos
+
+robados de Kestrell
+
+En la feria conocí a una bardo llamada Kestrell a la que un grupo de mercenarios robó sus instrumentos. He aceptado recuperar los instrumentos para ella. Fueron atacados al sur de Beregost, junto a la carretera de la costa.~ 
+
+
+
+@10024 = ~Encuentra los instrumentos
+
+robados de Kestrell
+
+He recuperado los instrumentos robados de Kestrell incluyendo su laúd con el que estaba muy contenta. Estoy seguro de que no faltará buena música en la feria a partir de ahora.~
