@@ -1,0 +1,33 @@
+IF	
+	PartyHasItem("R8ITM31")
+	PartyHasItem("R8ITM32")
+	PartyHasItem("R8ITM33")
+	PartyHasItem("R8ITM34")
+	PartyHasItem("R8ITM35")	
+	Global("CearwinQuest","GLOBAL",2)
+THEN
+	RESPONSE #100
+	SetGlobal("CearwinQuest","GLOBAL",3)
+	Continue()END
+
+IF
+	GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
+
+	Global("TeldornMessSpawn","GLOBAL",1)
+	Global("CaerwinSpawn","GLOBAL",0)
+	PartyHasItem("R8ITM36")
+THEN
+	RESPONSE #100
+	CreateCreature("R8CRE05",[2664.3376]%FACE_8%) // Caerwin the bard
+	SetGlobal("CaerwinSpawn","GLOBAL",1)	
+	Continue()
+END
+
+IF
+	Global("KestrellQuest","GLOBAL",1)
+THEN
+	RESPONSE #100
+	CreateCreature("R8CRE32",[3718.2291]%FACE_8%) //Kestrell the bard
+	SetGlobal("KestrellQuest","GLOBAL",2)
+	Continue()
+END

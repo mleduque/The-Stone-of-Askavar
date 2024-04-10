@@ -1,0 +1,13 @@
+IF
+	Global("KestrellQuest","GLOBAL",4)
+        Global("R8InstruSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+	CreateCreature("R8CRE33",[729.3224]%FACE_8%) // DreadMaul
+	CreateCreature("R8CRE34",[740.3230]%FACE_2%) // IronClaw
+	CreateCreature("R8CRE15",[710.3200]%FACE_10%) 
+        CreateCreature("R8CRE20",[800.3130]%FACE_2%) 
+        CreateCreature("R8CRE21",[830.3180]%FACE_10%)
+	SetGlobal("R8InstruSpawn","GLOBAL",1)
+END
+
