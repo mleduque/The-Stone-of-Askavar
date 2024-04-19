@@ -1,6 +1,38 @@
 <!DOCTYPE html>
-<html><head>
-</head>
+<html><head><title>The Stone of Askavar: ReadMe</title>
+<style type="text/css">
+<!--
+BODY { color: #FFFFFF; }
+A:link {
+  color: #0000CC;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana;
+}
+A:visited {
+  color: #0000CC;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana;
+}
+A:hover {
+  color: #000099;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: Verdana;
+}
+DIV.a {
+  font-family: Verdana;
+  font-size: 1.0em;
+  color: #000000;
+}
+TD {
+  font-family: Verdana;
+  font-size: 1.0em;
+  color: #000000;
+}
+-->
+</style></head>
 <body>
 <div class="a">
 	<center>
@@ -38,6 +70,7 @@
 </div>
 <div class="a">
   <a name="install"><b>II. INSTALLATION</b></a>
+  <p>For new players I recommend reading the installation guide on G3. <a href="https://www.gibberlings3.net/forums/topic/33164-a-new-player%E2%80%99s-guide-to-installing-and-playing-mods">New players guide</a> otherwise:
   <p>Extract the contents of the mod archive to your game's main directory.</p> 
   <p>If you have the Siege of Dragonspear installed then you need to extract the contents of the mod archive to the Siege of Dragonspear main directory.</p> 
   <ol>
@@ -79,7 +112,7 @@
 </div>
 <div class="a" style="width:90%;">
   <b><a name="legal">VIII. LEGAL MATTERS</a></b>
-  <p>The Stone of Askavar is copyright © 2020</p>
+  <p>The Stone of Askavar is copyright © 2024</p>
   <p>BALDUR'S GATE , BALDUR'S GATE : Tales of the Swordcoast: © 1998, 1999 Bioware Corp. All Rights Reserved.</p>
   <p>The Stone of Askavar is not developed, supported, or endorsed by BioWare or Interplay/Black Isle.<br>
   All images and contents of this mod are copyright BioWare, Interplay/Black Isle or Wizards of the Coast.</p>
@@ -94,7 +127,8 @@
   <p>Thanks to Isaya for technical changes.<br><br></p>
   <p><b>Translators</b><br /><br />
   French: Lothringen<br />
-  German: Wertax and Gerri</p>
+  Spanish: AlaisFcZ<br />
+  German: Jarl,Wertax and Gerri </p>
   <b>Contributers</b></p>
   <p>Thanks to authors and contributors of the <a href="http://forums.blackwyrmlair.net/index.php?showforum=103">DRIZZT Saga</a> for providing a good template to work from.<br></p>
   
@@ -103,16 +137,13 @@
   <table width="100%" summary="">
     <tbody>
     <tr>
-      <td><a target="_blank" href="http://www.baldursgatemods.com">The Chosen of Mystra/TeamBG</a></td>
+      <td><a target="_blank" href="https://www.gibberlings3.net/">The Gibberlings Three modding community</a></td>
     </tr>
     <tr>
-      <td><a target="_blank" href="http://www.pocketplane.net/modlist">Pocket Plane mod list</a></td>
+      <td><a target="_blank" href="https://forums.beamdog.com/">Beamdog Forums</a></td>
     </tr>
     <tr>
-      <td><a target="_blank" href="http://forums.bioware.com/">Bioware Forums</a></td>
-    </tr>
-    <tr>
-      <td><a target="_blank" href="http://sourceforge.net/projects/nearinfinity/">Near Infinity</a></td>
+      <td><a target="_blank" href="https://github.com/Argent77/NearInfinity/releases/tag/v2.4-20231231/">Near Infinity</a></td>
     </tr>
     <tr>
       <td><a target="_blank" href="http://www.weidu.org/">Weidu</a></td>
