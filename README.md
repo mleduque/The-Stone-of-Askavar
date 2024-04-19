@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>The Stone of Askavar: ReadMe</title>
+<html><head>
 </head>
 <body>
 <div class="a">
