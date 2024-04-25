@@ -27,19 +27,19 @@ END
 
 IF
   HPPercentLT(Myself,50)
-  HasItem("_POTN08",Myself)
+  HasItem("%tutu_var%POTN08",Myself)
 THEN
   RESPONSE #100
-    UseItem("_POTN08",Myself)
+    UseItem("%tutu_var%POTN08",Myself)
     Continue()
 END
 
 IF
   HitBy([0],POISON)
-  HasItem("_POTN20",Myself)
+  HasItem("%tutu_var%POTN20",Myself)
 THEN
   RESPONSE #100
-    UseItem("_POTN20",Myself)
+    UseItem("%tutu_var%POTN20",Myself)
     Continue()
 END
 
