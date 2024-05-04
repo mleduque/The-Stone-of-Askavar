@@ -272,10 +272,9 @@ Kann nicht verwendet werden von:
 EIGENSCHAFTEN:
 
 RK-Bonus: -1
-Kältewiderstand: +30%
-Elektizitätswiderstand: +30%
-Feuerwiderstand: +30%
-Gewicht:  3
+Kältewiderstand: +20%
+Feuerwiderstand: +20%
+Gewicht: 3
 
 Kann nicht verwendet werden von:~
 @32  = ~Magierrobe~
@@ -520,7 +519,7 @@ Gewicht: 3
 Nur verwendbar von:
 - Barden~
 @68  = ~Laute~
-@69  = ~Elfische Laute~
+@69  = ~Cassandras Laute~
 @70  = ~Die Laute hat einen birnenförmigen Resonanzkörper mit einem mehr oder weniger gekrümmten Hals von dem aus die Saiten gespannt sind. Lauten variieren in der Länge zwischen 30 und 36 Zoll und der Resonanzkörper nimmt etwa zwei Drittel des Instruments ein. Entweder klimpert der Musiker auf den Saiten, oder er zupft sie um Musik zu machen.~
 @71  = ~Cassandras Laute
 "Der Mut des Löwen"
