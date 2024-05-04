@@ -1,59 +1,59 @@
-@189   = ~*       This file will install          *~ 
+@189   = ~*       This file will install          *~
 @190   = ~*        in your BG directory           *~
-@191   = ~*Legenden der SchwertkÃ¼ste ist nicht installiert. Installation von Der Stein von Askavar wird nicht fortgesetzt.*~ 
+@191   = ~*Legenden der Schwertküste ist nicht installiert. Installation von Der Stein von Askavar wird nicht fortgesetzt.*~
 @192   = ~The Stone of Askavar for TotSC/Tutu/BGT/BGEE~
-@196   = ~Legenden der SchwertkÃ¼ste entdeckt. Installiere...~ 
+@196   = ~Legenden der Schwertküste entdeckt. Installiere...~
 @197   = ~Diese Mod muss in ihrem BG1, EasyTutu, BGT oder BGEE - Verzeichnis installiert werden.~
 @198   = ~Tutu-Installation entdeckt. Nutze Tutu-Installationscode...~
-@199   = ~Die Klangdateien und neuen Gebiete werden nicht installiert. DrÃ¼cken Sie EINGABE und warten Sie auf das Ende des Installationsprozesses.~ 
+@199   = ~Die Klangdateien und neuen Gebiete werden nicht installiert. Drücken Sie EINGABE und warten Sie auf das Ende des Installationsprozesses.~
 @200   = ~BGT-Installation entdeckt. Nutze BGT-Installationscode...~
-@231   = ~BGEE-Installation entdeckt. Nutze BGEE-Installationscode...~ 
+@231   = ~BGEE-Installation entdeckt. Nutze BGEE-Installationscode...~
 @232   = ~Die Weltkarte wird aktualisiert...~
 @233   = ~Defaultversion: Gebiete werden durch Reisetrigger miteinander verbunden.~
-@234   = ~UnterstÃ¼tzte Plattformen: TotSC, BGEE, BGT, Tutu. TotSC- und ToB-Erweiterungen werden fÃ¼r BGT/Tutu benÃ¶tigt.~ 
-@235   = ~Installiere Animationen fÃ¼r Kreaturen...~
-@236   = ~BP-BGT Worldmap -Version: Alle Gebiete zur Weltkarte hinzugefÃ¼gt (benÃ¶tigt BP-BGT Worldmap)~ 
-@237   = ~Installiere Animationen fÃ¼r Kreaturen...~
-@238   = ~The Stone of Askavar fÃ¼r Tutu/BGT/BGEE~
-@10000 = ~Ein Brief fÃ¼r Aranor~
-@10001 = ~Ein Brief fÃ¼r Aranor
+@234   = ~Unterstützte Plattformen: TotSC, BGEE, BGT, Tutu. TotSC- und ToB-Erweiterungen werden für BGT/Tutu benötigt.~
+@235   = ~Installiere Animationen für Kreaturen...~
+@236   = ~BP-BGT Worldmap -Version: Alle Gebiete zur Weltkarte hinzugefügt (benötigt BP-BGT Worldmap)~
+@237   = ~Installiere Animationen für Kreaturen...~
+@238   = ~The Stone of Askavar für Tutu/BGT/BGEE~
+@10000 = ~Ein Brief für Aranor~
+@10001 = ~Ein Brief für Aranor
 
-Ich sprach mit dem Barden Cearwin auf dem Jahrmarkt von Nashkell. Er bat mich, eine schriftliche Nachricht an einen Mann namens Aranor in Beregost zu Ã¼bermitteln, und bot mir dafÃ¼r 250 GoldstÃ¼cke. Aranor soll sich regelmÃ¤ÃŸig im Brennenden Zauberer aufhalten.~ 
-@10002 = ~Ein Brief fÃ¼r Aranor
+Ich sprach mit dem Barden Cearwin auf dem Jahrmarkt von Nashkell. Er bat mich, eine schriftliche Nachricht an einen Mann namens Aranor in Beregost zu übermitteln, und bot mir dafür 250 Goldstücke. Aranor soll sich regelmäßig im Brennenden Zauberer aufhalten.~
+@10002 = ~Ein Brief für Aranor
 
-Ich habe Cearwins Nachricht an Aranor zugestellt. Ich hoffe, es war die MÃ¼he der Reise wert.~
-@10003 = ~Ein Brief fÃ¼r Aranor
+Ich habe Cearwins Nachricht an Aranor zugestellt. Ich hoffe, es war die Mühe der Reise wert.~
+@10003 = ~Ein Brief für Aranor
 
-Nach einer langen Reise habe ich endlich Cearwins Nachricht an Aranor zugestellt. Ich hoffe, es war die MÃ¼he wert.~ 
-@10004 = ~Die Suche nach den verlorenen Talismanen~ 
+Nach einer langen Reise habe ich endlich Cearwins Nachricht an Aranor zugestellt. Ich hoffe, es war die Mühe wert.~
+@10004 = ~Die Suche nach den verlorenen Talismanen~
 @10005 = ~Die Suche nach den verlorenen Talismanen
 
-Die fÃ¼nf Talismane, die Cearwin gestohlen wurden, sind der SchlÃ¼ssel zu einer unterirdischen Kammer, wo der Elfenstein versteckt sein soll. Aranor glaubt, dass Teldorn, ein AnhÃ¤nger von Bane, sich der wahren Bedeutung dieser Talismane nicht bewusst ist. Ich soll nach Nashkell zurÃ¼ckkehren, um nachzusehen, ob Cearwin inzwischen etwas Ã¼ber ihren Verbleib herausgefunden hat.~
+Die fünf Talismane, die Cearwin gestohlen wurden, sind der Schlüssel zu einer unterirdischen Kammer, wo der Elfenstein versteckt sein soll. Aranor glaubt, dass Teldorn, ein Anhänger von Bane, sich der wahren Bedeutung dieser Talismane nicht bewusst ist. Ich soll nach Nashkell zurückkehren, um nachzusehen, ob Cearwin inzwischen etwas über ihren Verbleib herausgefunden hat.~
 @10006 = ~Die Suche nach den verlorenen Talismanen
 
-Cearwin hat herausgefunden, wo sich die gestohlenen Talismane derzeit befinden. UnglÃ¼cklicherweise scheinen sie entlang der SchwertkÃ¼ste verstreut zu sein. Es wird eine Weile dauern, alle zu finden und zusammenzutragen. AuÃŸerdem gibt es GerÃ¼chte Ã¼ber eine Gruppe von SÃ¶ldnern, die sich in der NÃ¤he von Dystras altem Wachturm aufhalten soll, einem Ort weit im Osten von hier. Ich sollte mich dort mal umsehen.~ 
+Cearwin hat herausgefunden, wo sich die gestohlenen Talismane derzeit befinden. Unglücklicherweise scheinen sie entlang der Schwertküste verstreut zu sein. Es wird eine Weile dauern, alle zu finden und zusammenzutragen. Außerdem gibt es Gerüchte über eine Gruppe von Söldnern, die sich in der Nähe von Dystras altem Wachturm aufhalten soll, einem Ort weit im Osten von hier. Ich sollte mich dort mal umsehen.~
 @10007 = ~Die Bergung des Steins von Askavar~
 @10008 = ~Die Bergung des Steins von Askavar
 
-Nun, da ich alle fÃ¼nf Talismane aufgetrieben habe, hat Cearwin mich in den Scharfzahnwald geschickt. Irgendwo zwischen den Tempelruinen des alten Elfenreiches befindet sich der Eingang zu der unterirdischen Kammer, wo der Stein von Askavar verborgen liegt. Cearwin hat noch Hoffnung, dass der Eingang bislang nicht entdeckt worden ist.~
+Nun, da ich alle fünf Talismane aufgetrieben habe, hat Cearwin mich in den Scharfzahnwald geschickt. Irgendwo zwischen den Tempelruinen des alten Elfenreiches befindet sich der Eingang zu der unterirdischen Kammer, wo der Stein von Askavar verborgen liegt. Cearwin hat noch Hoffnung, dass der Eingang bislang nicht entdeckt worden ist.~
 @10009 = ~Die Bergung des Steins von Askavar
 
-Ich muss den Stein von Askavar bergen, ehe Teldorns BaneanhÃ¤nger ihn in die Finger bekommen.~
+Ich muss den Stein von Askavar bergen, ehe Teldorns Baneanhänger ihn in die Finger bekommen.~
 @10010 = ~Die Bergung des Steins von Askavar
 
-Ich habe den Stein von Askavar gefunden und an Aranor ausgehÃ¤ndigt. Zweifellos wird Cearwin zufrieden sein. Ich hoffe, der Elfenstein gewÃ¤hrt ihm und seinen VerbÃ¼ndeten den entscheidenden Vorteil im Kampf gegen die AnhÃ¤nger von Bane, Cyric und Mask.~
-@10011 = ~Die Verfolgung von Rebeccas EntfÃ¼hrern~
-@10012 = ~Die Verfolgung von Rebeccas EntfÃ¼hrern
+Ich habe den Stein von Askavar gefunden und an Aranor ausgehändigt. Zweifellos wird Cearwin zufrieden sein. Ich hoffe, der Elfenstein gewährt ihm und seinen Verbündeten den entscheidenden Vorteil im Kampf gegen die Anhänger von Bane, Cyric und Mask.~
+@10011 = ~Die Verfolgung von Rebeccas Entführern~
+@10012 = ~Die Verfolgung von Rebeccas Entführern
 
-In Beregost habe ich ein junges MÃ¤dchen namens Lizzy getroffen, deren Mutter von Einbrechern ermordet wurde. Ãœberdies haben die Schurken ihre Schwester Rebecca entfÃ¼hrt. Ich habe zugesagt, in der Angelegenheit zu helfen. Lizzys Bericht zufolge hat die Stadtwache die Bande in Richtung Osten bis hinter den Tempel verfolgt.~
-@10013 = ~Die Verfolgung von Rebeccas EntfÃ¼hrern
+In Beregost habe ich ein junges Mädchen namens Lizzy getroffen, deren Mutter von Einbrechern ermordet wurde. Überdies haben die Schurken ihre Schwester Rebecca entführt. Ich habe zugesagt, in der Angelegenheit zu helfen. Lizzys Bericht zufolge hat die Stadtwache die Bande in Richtung Osten bis hinter den Tempel verfolgt.~
+@10013 = ~Die Verfolgung von Rebeccas Entführern
 
-Ich habe Rebecca aus den HÃ¤nden ihrer EntfÃ¼hrer befreit. Als Belohnung gab sie mir ihren Talisman. Hoffentlich sieht die Zukunft fÃ¼r Rebecca und ihre Schwester rosiger aus als die jÃ¼ngste Vergangenheit.~
-@10014 = ~Carneths RÃ¤tsel~
-@10015 = ~Carneths RÃ¤tsel
+Ich habe Rebecca aus den Händen ihrer Entführer befreit. Als Belohnung gab sie mir ihren Talisman. Hoffentlich sieht die Zukunft für Rebecca und ihre Schwester rosiger aus als die jüngste Vergangenheit.~
+@10014 = ~Carneths Rätsel~
+@10015 = ~Carneths Rätsel
 
-Ich muss fÃ¼r Carneth ein RÃ¤tsel lÃ¶sen, ehe er mir die nÃ¶tigen Informationen gibt.~
-@10016 = ~Ich habe Carneths RÃ¤tsel in mein Tagebuch geschrieben, um die Intelligenz meiner Reisebegleiter auf die Probe zu stellen.
+Ich muss für Carneth ein Rätsel lösen, ehe er mir die nötigen Informationen gibt.~
+@10016 = ~Ich habe Carneths Rätsel in mein Tagebuch geschrieben, um die Intelligenz meiner Reisebegleiter auf die Probe zu stellen.
 
 Ich bin vier mal so alt wie meine Tochter. In zwanzig Jahren werde ich zwei mal so alt sein wie sie. Wie alt sind wir jetzt?
 Ich bin 60 und meine Tochter ist 15 Jahre alt.
@@ -61,19 +61,19 @@ Ich bin 28 und meine Tochter ist 7 Jahre alt.
 Ich bin 36 und meine Tochter ist 9 Jahre alt.
 Ich bin 40 und meine Tochter ist 10 Jahre alt.
 Ich bin 48 und meine Tochter ist 12 Jahre alt.~
-@10017 = ~Carneths RÃ¤tsel
+@10017 = ~Carneths Rätsel
 
-Ich habe Carneths teuflisches RÃ¤tsel gelÃ¶st.~
+Ich habe Carneths teuflisches Rätsel gelöst.~
 @10018 = ~Der Kauf des Drachenherzrubins~
 @10019 = ~Der Kauf des Drachenherzrubins
 
-Carneth mÃ¶chte, dass ich einen Drachenherzrubin aus einem der hiesigen LÃ¤den auftreibe. Das klingt irgendwie nach einem magischen Artefakt und mit Sicherheit wird es ein hÃ¼bsches SÃ¼mmchen kosten.~
+Carneth möchte, dass ich einen Drachenherzrubin aus einem der hiesigen Läden auftreibe. Das klingt irgendwie nach einem magischen Artefakt und mit Sicherheit wird es ein hübsches Sümmchen kosten.~
 @10020 = ~Der Kauf des Drachenherzrubins
 
-Nachdem ich ihm den Drachenherzrubin gegeben hatte, hÃ¤ndigte Carneth mir den gesuchten Talisman aus, den Stern von Merris.~
+Nachdem ich ihm den Drachenherzrubin gegeben hatte, händigte Carneth mir den gesuchten Talisman aus, den Stern von Merris.~
 @10021 = ~Die Suche nach den verlorenen Talismanen
 
-Nachdem ich die SchwertkÃ¼ste rauf und runtergereist bin, konnte ich endlich alle fÃ¼nf Talismane auftreiben.~
+Nachdem ich die Schwertküste rauf und runtergereist bin, konnte ich endlich alle fünf Talismane auftreiben.~
 
 
 //Wiederfinden von Kestrells Instrumenten
@@ -83,10 +83,10 @@ Nachdem ich die SchwertkÃ¼ste rauf und runtergereist bin, konnte ich endlich all
 
 @10023 = ~Kestrells gestohlene Instrumente
 
-Ich habe auf dem Jahrmarkt eine Bardin namens Kestrell getroffen, deren Instrumente von einer Gruppe von SÃ¶ldnern gestohlen wurden. Ich habe mich bereit erklÃ¤rt, die Instrumente wiederzubeschaffen. Sie wurde sÃ¼dlich von Beregost, direkt an der KÃ¼stenstraÃŸe, Ã¼berfallen.~ 
+Ich habe auf dem Jahrmarkt eine Bardin namens Kestrell getroffen, deren Instrumente von einer Gruppe von Söldnern gestohlen wurden. Ich habe mich bereit erklärt, die Instrumente wiederzubeschaffen. Sie wurde südlich von Beregost, direkt an der Küstenstraße, überfallen.~
 
 
 
 @10024 = ~Kestrells gestohlene Instrumente
 
-Ich habe Kestrells gestohlene Instrumente wiedergefunden, darunter ihre Laute, die fÃ¼r sie eine groÃŸe Bedeutung besitzt. Ich bin sicher, dass es auf dem Jahrmarkt von nun an nicht mehr an schÃ¶ner Musik mangeln wird.~
+Ich habe Kestrells gestohlene Instrumente wiedergefunden, darunter ihre Laute, die für sie eine große Bedeutung besitzt. Ich bin sicher, dass es auf dem Jahrmarkt von nun an nicht mehr an schöner Musik mangeln wird.~
