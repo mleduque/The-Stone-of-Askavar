@@ -96,7 +96,7 @@
   <p><b>Translators</b><br /><br />
   French: Lothringen<br />
   Spanish: AlaisFcZ<br />
-  German: Jarl,Wertax and Gerri </p>
+  German: Jarl, Wertax, Gerri and Ychap</p>
   <b>Contributers</b></p>
   <p>Thanks to authors and contributors of the <a href="http://forums.blackwyrmlair.net/index.php?showforum=103">DRIZZT Saga</a> for providing a good template to work from.<br></p>
   
@@ -206,5 +206,9 @@
   <p>4. Rebalanced some items</p> 
   <p>5. Side Quest Added</p>  
   <p><a href="#top">Back to top</a></p>
+  <hr align="left" style="width:350px;">
+  <p>Version 2.4  (7 May, 2024) Sixteenth Full Release</p>	
+  <p>1. Updates to German translation</p>
+  <p>2. Traps in Bluebell wood and wooded areas of Dystra's Watch Tower are now detectable</p> 	
 </div>
 </body></html>
