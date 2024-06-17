@@ -96,7 +96,8 @@
   <p><b>Translators</b><br /><br />
   French: Lothringen<br />
   Spanish: AlaisFcZ<br />
-  German: Jarl, Wertax, Gerri and Ychap</p>
+  German: Jarl, Wertax, Gerri and Ychap<br />
+  Russian: Paladin84</p>
   <b>Contributers</b></p>
   <p>Thanks to authors and contributors of the <a href="http://forums.blackwyrmlair.net/index.php?showforum=103">DRIZZT Saga</a> for providing a good template to work from.<br></p>
   
