@@ -54,7 +54,7 @@ ALWAYS
 
     // Reload setup-soa.tra after conversion
     ACTION_DEFINE_ARRAY soa_reload BEGIN setup-soa END
-    ACTION_DEFINE_ARRAY soa_noconvert BEGIN setup-osx setup-unix setup-win32 END
+    ACTION_DEFINE_ARRAY soa_noconvert BEGIN INSTALL END
 
     LAF HANDLE_CHARSETS
       INT_VAR
@@ -120,7 +120,7 @@ LANGUAGE ~German~
          ~soa/Language/german/setup-soa.tra~
 LANGUAGE ~Simplified Chinese~
          ~schinese~
-         ~soa/Language/schinese/setup-%WEIDU_OS%.tra~	
+         ~soa/Language/schinese/INSTALL.tra~	
 
 //////////////////////////////////////////////////////////////////
 //// Original version: new areas connected by travel triggers ////
