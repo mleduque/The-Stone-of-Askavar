@@ -6,8 +6,8 @@
 	<center>
   <h1>The Stone of Askavar</h1><br>
   <b>A mod for Baldur's Gate: Tales of the Sword Coast<br>
- Version 2.6 <br>
-  (4th August, 2024)</b><br>
+ Version 2.7 <br>
+  (9th December, 2024)</b><br>
   <br>
   Created by: Red Carnelian<br><br>
   SOA Support Forum: <a href="https://forums.beamdog.com/discussion/42168/mod-the-stone-of-askavar-for-totsc-tutu-bgt-and-bg-ee">https://forums.beamdog.com/discussion/42168/mod-the-stone-of-askavar-for-totsc-tutu-bgt-and-bg-ee</a><br>
@@ -216,6 +216,9 @@
  <hr align="left" style="width:350px;">
   <p>Version 2.6 (4th August, 2024) Eighteenth Full Release</p>
   <p>1. Chinese translation added</p>	
+  <hr align="left" style="width:350px;">
+  <p>Version 2.7 (9th December, 2024) Nineteenth Full Release</p>
+  <p>1. Updates to Chinese translation</p>	
  <p><a href="#top">Back to top</a></p>	
 </div>
 </body></html>
